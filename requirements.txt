@@ -1,0 +1,7 @@
+dash
+dash-leaflet
+dash-bootstrap-components>=1.4.0
+pandas
+geopy
+h3
+geojson

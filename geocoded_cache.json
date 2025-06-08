@@ -1,0 +1,606 @@
+{
+  "Werribee, Australia": [
+    -37.907984,
+    144.6416748
+  ],
+  "Coopers Plains, Australia": [
+    -27.566855,
+    153.0367212
+  ],
+  "Bribie Island, Australia": [
+    -26.9644799,
+    153.120238
+  ],
+  "Clayton, Australia": [
+    -37.9142211,
+    145.1268559
+  ],
+  "Marsfield, Australia": [
+    -33.7777956,
+    151.1032015
+  ],
+  "Melbourne, Australia": [
+    -37.8142454,
+    144.9631732
+  ],
+  "Wageningen, Netherlands": [
+    51.9685817,
+    5.6682981
+  ],
+  "Odense, Denmark": [
+    55.3997225,
+    10.3852104
+  ],
+  "Aarhus, Denmark": [
+    56.1496278,
+    10.2134046
+  ],
+  "Karlsruhe, Germany": [
+    49.0068705,
+    8.4034195
+  ],
+  "Munich, Germany": [
+    48.1371079,
+    11.5753822
+  ],
+  "Winnipeg, Canada": [
+    49.8955367,
+    -97.1384584
+  ],
+  "Geelong, Australia": [
+    -38.1493248,
+    144.3598241
+  ],
+  "Adelaide, Australia": [
+    -34.9281805,
+    138.5999312
+  ],
+  "St Lucia, Australia": [
+    -27.4989435,
+    153.0064984
+  ],
+  "Newcastle, Australia": [
+    -32.9192953,
+    151.7795348
+  ],
+  "Nantes, France": [
+    47.2186371,
+    -1.5541362
+  ],
+  "Sydney, Australia": [
+    -33.8698439,
+    151.2082848
+  ],
+  "Dunedin, New Zealand": [
+    -45.8740984,
+    170.5035755
+  ],
+  "Amherst, USA": [
+    42.3731948,
+    -72.5198761
+  ],
+  "Columbus, USA": [
+    39.9622601,
+    -83.0007065
+  ],
+  "St Helens, UK": [
+    53.4535471,
+    -2.7343231
+  ],
+  "Canberra, Australia": [
+    -35.2975906,
+    149.1012676
+  ],
+  "Brisbane, Australia": [
+    -27.4689623,
+    153.0235009
+  ],
+  "Manhattan, USA": [
+    40.7896239,
+    -73.9598939
+  ],
+  "Zurich, Switzerland": [
+    47.3744489,
+    8.5410422
+  ],
+  "Singapore, Singapore": [
+    1.357107,
+    103.8194992
+  ],
+  "Baja California, Mexico": [
+    30.0338923,
+    -115.1425107
+  ],
+  "Stirling, UK": [
+    56.1181242,
+    -3.9360012
+  ],
+  "Birmingham, UK": [
+    52.4796992,
+    -1.9026911
+  ],
+  "Vancouver, Canada": [
+    49.2608724,
+    -123.113952
+  ],
+  "Cremorne, Australia": [
+    -33.8260081,
+    151.2254326
+  ],
+  "Auckland, New Zealand": [
+    -36.852095,
+    174.7631803
+  ],
+  "Jakarta, Indonesia": [
+    -6.1754049,
+    106.827168
+  ],
+  "Saint Etienne, France": [
+    45.4401467,
+    4.3873058
+  ],
+  "Lyon, France": [
+    45.7578137,
+    4.8320114
+  ],
+  "Ho Chi Minh City, Vietnam": [
+    10.7763897,
+    106.7011391
+  ],
+  "Forest Hill, Australia": [
+    -37.8362738,
+    145.1690911
+  ],
+  "San Francisco, USA": [
+    37.7792588,
+    -122.4193286
+  ],
+  "Uzwil, Switzerland": [
+    47.4370506,
+    9.1333201
+  ],
+  "Cleveland, USA": [
+    41.4996574,
+    -81.6936772
+  ],
+  "Potchefstroom, South Africa": [
+    -26.707778,
+    27.095833
+  ],
+  "Vanderbijlpark, South Africa": [
+    -26.706891,
+    27.836271
+  ],
+  "Yangzhou, China": [
+    32.3968554,
+    119.4077658
+  ],
+  "Schweinfurt , Germany": [
+    50.0518552,
+    10.2220921
+  ],
+  "Stuttgart, Germany": [
+    48.7784485,
+    9.1800132
+  ],
+  "North Ryde, Australia": [
+    -33.7975472,
+    151.127306
+  ],
+  "Vejle, Denmark": [
+    55.707931,
+    9.5329419
+  ],
+  "Peterborough, UK": [
+    52.5725769,
+    -0.2427336
+  ],
+  "Beijing, China": [
+    40.190632,
+    116.412144
+  ],
+  "North Albury, Australia": [
+    -36.0568968,
+    146.9276652
+  ],
+  "Valencia , Spain": [
+    39.4697065,
+    -0.3763353
+  ],
+  "Amiens, France": [
+    49.8941708,
+    2.2956951
+  ],
+  "Columbia, USA": [
+    34.000754,
+    -81.0352313
+  ],
+  "St. Louis, USA": [
+    38.6280278,
+    -90.1910154
+  ],
+  "Minneapolis, USA": [
+    44.9772995,
+    -93.2654692
+  ],
+  "New York, USA": [
+    40.7127281,
+    -74.0060152
+  ],
+  "Surry Hills, Australia": [
+    -33.8845123,
+    151.2100301
+  ],
+  "California, USA": [
+    36.7014631,
+    -118.755997
+  ],
+  "Texas, USA": [
+    31.2638905,
+    -98.5456116
+  ],
+  "Narraweena, Australia": [
+    -33.7502066,
+    151.2741566
+  ],
+  "New South Wales, Australia": [
+    -31.8759835,
+    147.2869493
+  ],
+  "Chadstone, Australia": [
+    -37.8822799,
+    145.1001365
+  ],
+  "Wangaratta, Australia": [
+    -36.356434,
+    146.3228311
+  ],
+  "Botany, Australia": [
+    -33.947829,
+    151.1990644
+  ],
+  "Noble Park, Australia": [
+    -37.9664597,
+    145.1761147
+  ],
+  "Tasmania, Australia": [
+    -42.035067,
+    146.6366887
+  ],
+  "Bad Schwartau, Germany": [
+    53.9196435,
+    10.6978692
+  ],
+  "Manila, Philippines": [
+    14.5904492,
+    120.9803621
+  ],
+  "Helsinki, Finland": [
+    60.1674881,
+    24.9427473
+  ],
+  "Zutphen, Netherlands": [
+    52.1396933,
+    6.194772
+  ],
+  "Salt Lake City, USA": [
+    40.7596198,
+    -111.886797
+  ],
+  "Chile": [
+    -31.7613365,
+    -71.3187697
+  ],
+  "Launceston, Australia": [
+    -41.4340813,
+    147.1373496
+  ],
+  "Redcliffe, Australia": [
+    -27.2268785,
+    153.1129973
+  ],
+  "Bielefeld, Germany": [
+    52.0191005,
+    8.531007
+  ],
+  "Shagamu, Nigeria": [
+    6.8477165,
+    3.6440551
+  ],
+  "Stavanger, Norway": [
+    58.9699675,
+    5.7318101
+  ],
+  "Wodonga, Australia": [
+    -36.1205539,
+    146.8880837
+  ],
+  "Sioux Falls, USA": [
+    43.5476008,
+    -96.7293629
+  ],
+  "Saint-Etienne, France": [
+    45.4401467,
+    4.3873058
+  ],
+  "Toulouse , France": [
+    43.6044622,
+    1.4442469
+  ],
+  "Columbus , USA": [
+    39.9622601,
+    -83.0007065
+  ],
+  "Columbus\u00a0, USA": [
+    39.9622601,
+    -83.0007065
+  ],
+  "Virginia, USA": [
+    37.1232245,
+    -78.4927721
+  ],
+  "Mexico City, Mexico": [
+    19.3207722,
+    -99.1514678
+  ],
+  "Duisburg, Germany": [
+    51.434999,
+    6.759562
+  ],
+  "Macquarie Park, Australia": [
+    -33.7814961,
+    151.1256747
+  ],
+  "Pullman, USA": [
+    46.7304268,
+    -117.173895
+  ],
+  "Horsham, Australia": [
+    -36.7148099,
+    142.2018105
+  ],
+  "Carol Stream, USA": [
+    41.9125286,
+    -88.1347927
+  ],
+  "Fayetteville, USA": [
+    36.0625843,
+    -94.1574328
+  ],
+  "Salerno, Italy": [
+    40.4194416,
+    15.3106085
+  ],
+  "California , USA": [
+    36.7014631,
+    -118.755997
+  ],
+  "Knoxville, USA": [
+    35.9603948,
+    -83.9210261
+  ],
+  "S\u00e3o Paulo, Brazil": [
+    -23.5506507,
+    -46.6333824
+  ],
+  "Minnesota, USA": [
+    45.9896587,
+    -94.6113288
+  ],
+  "Beijing, USA": [
+    40.7686619,
+    -73.9886693
+  ],
+  "Nebraska, USA": [
+    41.7370229,
+    -99.5873816
+  ],
+  "H\u00f8rsholm, Denmark": [
+    55.8832986,
+    12.5000112
+  ],
+  "Werribee South, Australia": [
+    -37.939627,
+    144.697546
+  ],
+  "Hawkesbury Valley, NSW, Australia": [
+    -33.6114005,
+    150.8116568
+  ],
+  "Queensland, Australia": [
+    -22.1646782,
+    144.5844903
+  ],
+  "Shenyang, China": [
+    41.8026095,
+    123.4279105
+  ],
+  "Tallinn, Estonia": [
+    59.4372155,
+    24.7453688
+  ],
+  "Saskatoon, Canada": [
+    52.131802,
+    -106.660767
+  ],
+  "Freising, Germany": [
+    48.4008273,
+    11.7439565
+  ],
+  "Berufserfahrung , Germany": [
+    null,
+    null
+  ],
+  "Malm\u00f6 , Sweden": [
+    55.6052931,
+    13.0001566
+  ],
+  "Hallam, Australia": [
+    -38.0179565,
+    145.2703131
+  ],
+  "Valais, Switzerland": [
+    46.2303063,
+    7.6605757
+  ],
+  "Finland": [
+    63.2467777,
+    25.9209164
+  ],
+  "Brazil": [
+    -10.3333333,
+    -53.2
+  ],
+  "Kenya": [
+    1.4419683,
+    38.4313975
+  ],
+  "Espoo, Finland": [
+    60.2049651,
+    24.6559808
+  ],
+  "Tromso, Norway": [
+    69.6516345,
+    18.9558585
+  ],
+  "Seoul, Korea": [
+    37.5666791,
+    126.9782914
+  ],
+  "Korea": [
+    36.638392,
+    127.6961188
+  ],
+  "Copenaghen, Denmark": [
+    55.6867243,
+    12.5700724
+  ],
+  "Singapore": [
+    1.357107,
+    103.8194992
+  ],
+  " Yesan County, South Korea": [
+    36.6808989,
+    126.8448742
+  ],
+  "Auckland, New Zeland": [
+    -36.8415315,
+    174.7633964
+  ],
+  "Harbin, China": [
+    45.7593633,
+    126.6276177
+  ],
+  "Quakenbr\u00fcck, Germany": [
+    52.6757127,
+    7.9567402
+  ],
+  "Lund, Sweden": [
+    55.7029296,
+    13.1929449
+  ],
+  " V\u00e4xj\u00f6, Kalmar, Sweden": [
+    56.7031771,
+    15.7489696
+  ],
+  "Troms\u00f8, Norway": [
+    69.6516345,
+    18.9558585
+  ],
+  "Qingdao, China": [
+    36.0663249,
+    120.3777659
+  ],
+  "Lappeenranta, Finland": [
+    61.0583713,
+    28.1862742
+  ],
+  "Selangor, Malaysia": [
+    3.2083304,
+    101.304146
+  ],
+  "Bari, Italy": [
+    41.1257843,
+    16.8620293
+  ],
+  "Bankgok, Thailand": [
+    13.7416034,
+    100.621531
+  ],
+  "Karaman, Turkey": [
+    37.1796848,
+    33.3383665
+  ],
+  " Nanchang City, China": [
+    28.687547,
+    115.8540042
+  ],
+  "Jammu and Kashmir, India": [
+    33.6649297,
+    75.1629584
+  ],
+  "Krakow, Poland": [
+    50.0619474,
+    19.9368564
+  ],
+  "China, Handan": [
+    36.6107711,
+    114.4857072
+  ],
+  "Switzerland, Sion": [
+    46.2311749,
+    7.3588795
+  ],
+  "USA, Kansas": [
+    38.27312,
+    -98.5821872
+  ],
+  "Jiangsu, China": [
+    33.0000001,
+    119.9999999
+  ],
+  "Australia, Melbourne": [
+    -37.8142454,
+    144.9631732
+  ],
+  "Sweden, Stockholm": [
+    59.3251172,
+    18.0710935
+  ],
+  "Mexico, Tuxtepec": [
+    18.0874632,
+    -96.1227767
+  ],
+  "Denmark, Aarhus": [
+    56.1496278,
+    10.2134046
+  ],
+  "Italy, Milano": [
+    45.4641943,
+    9.1896346
+  ],
+  "Italy, Torino": [
+    45.0677551,
+    7.6824892
+  ],
+  "India,  Amritsar": [
+    31.6356659,
+    74.8787496
+  ],
+  "Australia, Brisbane": [
+    -27.4689623,
+    153.0235009
+  ],
+  "Norway, Tromso": [
+    69.6516345,
+    18.9558585
+  ],
+  "Au": [
+    -24.7761086,
+    134.755
+  ],
+  "Caringbah NSW, Australia": [
+    -34.0354477,
+    151.1248018
+  ]
+}
