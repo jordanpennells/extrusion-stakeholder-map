@@ -146,10 +146,10 @@ Industry , Food Manufacturer,Jenny Hannan,Kellanova,NutriGrain Lead,Australia,Sy
 Industry , Food Manufacturer,Peter Crane,Kellanova,R&D Manager,Australia,Botany,peter.crane@kellanova.com,Declined
 Industry , Food Manufacturer,Clara McMullin,Kellanova,Product developer,Australia,Sydney,clara.mcmullin@kellanova.com,TBC
 Industry , Ingredient Manufacturer,Gregory Aylward,Graincorp,General Manager Strategy,Australia,Sydney,Greg.aylward@graincorp.com.au,TBC
-Industry , Ingredient Manufacturer,Filip Janakievski,Graincorp,,Australia,Geelong,,Declined
-Industry , Food Manufacturer,Charmin Sujantha,Roma Foods,Technical Manager,Australia,Noble Park,Charmin Sujantha Sillva | LinkedIn,
-Industry , Food Manufacturer,Max Buontempo,Roma Foods, Managing Director & Owner,Australia,Melbourne,https://www.linkedin.com/in/max-buontempo-59b0a959/,
-Industry , Food Manufacturer,Sam Schachna,Roma Foods,CEO,Australia,Melbourne,https://www.linkedin.com/in/samschachna/,
+Industry , Ingredient Manufacturer,Filip Janakievski,Graincorp,Senior Project Manager,Australia,Geelong,,Declined
+Industry , Food Manufacturer,Charmin Sujantha,Roma Foods,Technical Manager,Australia,Noble Park,Charmin Sujantha Sillva | LinkedIn,TBC
+Industry , Food Manufacturer,Max Buontempo,Roma Foods, Managing Director & Owner,Australia,Melbourne,https://www.linkedin.com/in/max-buontempo-59b0a959/,TBC
+Industry , Food Manufacturer,Sam Schachna,Roma Foods,CEO,Australia,Melbourne,https://www.linkedin.com/in/samschachna/,TBC
 Industry , Feed Manufacturer,Chris Hutton,Mars Petcare,Innovation | R&D,Australia,Melbourne,Chris Hutton | LinkedIn,TBC
 Industry , Feed Manufacturer,Pawel Baranski,Mars,Research & Development Manager,Australia,Brisbane,Paul.Baranski@marsbirdcare.com.au,TBC
 Industry , Food Manufacturer,Melanie Turner,Mars Food,Lead the Strategic Revenue Management Function,Australia,Sydney,,TBC
@@ -165,13 +165,13 @@ Industry , Feed Manufacturer,Tom Fox-Smith ,BioMar,Technical Director,Australia,
 Industry , Feed Manufacturer,Gustavo Lehnebach,Ridley,Technical Manager,Australia,Redcliffe,gustavo.lehnebach@ridley.com.au,TBC
 Industry , Feed Manufacturer,Scott Whelan,Ridley,Extrusion Operator,Australia,Launceston,,Stakeholder
 Industry , Feed Manufacturer,Fabien Dalais,Ridley,Head of Quality,Australia,Melbourne,Fabien Dalais | LinkedIn,TBC
-Industry , Equipment Manufacturer,Holger Kuhlwein,Leiber,Key Account Manager,Germany,Bielefeld,,
-R&D provider,,Lewis Martin ,A*STAR,Lab Manager,Singapore,Singapore,,
-Consultant,,Leigh Atkinson,Huon Aquaculture,Field Trials Manager,Australia,Tasmania,,
-Industry , Feed Manufacturer,Adebayo O,Skretting,Production Manager,Nigeria,Shagamu,,
+Industry , Equipment Manufacturer,Holger Kuhlwein,Leiber,Key Account Manager,Germany,Bielefeld,,Stakeholder
+R&D provider,,Lewis Martin ,A*STAR,Lab Manager,Singapore,Singapore,,Stakeholder
+Consultant,,Leigh Atkinson,Huon Aquaculture,Field Trials Manager,Australia,Tasmania,,Stakeholder
+Industry , Feed Manufacturer,Adebayo O,Skretting,Production Manager,Nigeria,Shagamu,,Stakeholder
 Industry , Feed Manufacturer,Julia Wolska,Skretting,Team Lead Feed Production,Norway,Stavanger,julia.wolska@skretting.com,TBC
-Industry , Feed Manufacturer,Brianna Bowen,Staughton Group,QA & R&D Manager,Australia,Wodonga,Brianna Bowen | LinkedIn,
-Industry , Feed Manufacturer,Elizabeth Freeland,Staughton Group,Product Development Scientist,Australia,Wodonga,Elizabeth Freeland | LinkedIn,
+Industry , Feed Manufacturer,Brianna Bowen,Staughton Group,QA & R&D Manager,Australia,Wodonga,Brianna Bowen | LinkedIn,Stakeholder
+Industry , Feed Manufacturer,Elizabeth Freeland,Staughton Group,Product Development Scientist,Australia,Wodonga,Elizabeth Freeland | LinkedIn,Stakeholder
 NGO,,Priera Panescu,GFI,Lead Scientist,USA,California,"prierap@gfi.org
 se682@yahoo.com
 phpanescu@yahoo.com",Stakeholder
@@ -180,180 +180,178 @@ erinc@gfi.org",Stakeholder
 Industry , Ingredient Manufacturer,Ben Lougher,ADM ,"Creation, Design & Development Director ANZ",Australia,Sydney,Ben.Lougher@adm.com,Declined
 Industry , Modelling & Simulation,Lucas Sardo,Sciences Computers Consultants,Scientific Director,France,Saint-Etienne,lsardo@scconsultants.com,Declined
 Industry , Modelling & Simulation,Laurent RATTE,Sciences Computers Consultants,Sales & Marketing Manager,France,Saint-Etienne,lratte@scconsultants.com,Declined
-Industry , Modelling & Simulation,Ken Chew Tan,Dassault Systemes,"Director, Business Consulting",Singapore,Singapore,kenchew.tan@3ds.com,
-Industry , Modelling & Simulation,Olivier Audelan,Dassault Systemes,,France,Toulouse ,,
-University,,Ana M. Velásquez Giraldo,Ohio State University,PhD Researcher,USA,Columbus ,velasquezgiraldo.1@buckeyemail.osu.edu,
-University,,Sheryl Barringer,Ohio State University,Professor,USA,Columbus ,barringer.11@osu.edu,
+Industry , Modelling & Simulation,Ken Chew Tan,Dassault Systemes,"Director, Business Consulting",Singapore,Singapore,kenchew.tan@3ds.com,TBC
+Industry , Modelling & Simulation,Olivier Audelan,Dassault Systemes,CATIA Infrastructure & Buildings Industry Director,France,Toulouse ,,Stakeholder
+University,,Ana M. Velásquez Giraldo,Ohio State University,PhD Researcher,USA,Columbus ,velasquezgiraldo.1@buckeyemail.osu.edu,Stakeholder
+University,,Sheryl Barringer,Ohio State University,Professor,USA,Columbus ,barringer.11@osu.edu,Stakeholder
 University,,Luca Dudenhöffer,KIT,Intern Student,Germany,Karlsruhe,"uywcn@student.kit.edu
-dudenhoeffer.luca@gmail.com",
+dudenhoeffer.luca@gmail.com",Stakeholder
 Industry , Characterisation,Debomitra Dey,Anton Paar,Application Scientist,USA,Virginia,debomitra.dey@anton-paar.com,TBC
-University,,Veeramani Karuppuchamy,Ohio State University,PhD Researcher,USA,Columbus ,karuppuchamy.1@buckeyemail.osu.edu,
-University,,Carolina Lagunes Delgado,Instituto Politécnico Nacional,PhD Researcher,Mexico,Mexico City,lagunesdelgado.1@osu.edu,
-Public Research Organisation,,Francine Fayolle,ONIRIS,Professor,France,Nantes,francine.fayolle@oniris-nantes.fr,
-Public Research Organisation,,Eve-Anne Norwood,ONIRIS,Associate Professor,France,Nantes,eve-anne.norwood@oniris-nantes.fr,
-Public Research Organisation,,Vanessa Jury,ONIRIS,Professor,France,Nantes,vanessa.jury@oniris-nantes.fr,
-University,,Chih-Chun (Ariel) Kuo,Ohio State University,PhD Researcher,USA,Columbus,kuo.283@buckeyemail.osu.edu,
+University,,Veeramani Karuppuchamy,Ohio State University,PhD Researcher,USA,Columbus ,karuppuchamy.1@buckeyemail.osu.edu,Stakeholder
+University,,Carolina Lagunes Delgado,Instituto Politécnico Nacional,PhD Researcher,Mexico,Mexico City,lagunesdelgado.1@osu.edu,Stakeholder
+Public Research Organisation,,Francine Fayolle,ONIRIS,Professor,France,Nantes,francine.fayolle@oniris-nantes.fr,Stakeholder
+Public Research Organisation,,Eve-Anne Norwood,ONIRIS,Associate Professor,France,Nantes,eve-anne.norwood@oniris-nantes.fr,Stakeholder
+Public Research Organisation,,Vanessa Jury,ONIRIS,Professor,France,Nantes,vanessa.jury@oniris-nantes.fr,Stakeholder
+University,,Chih-Chun (Ariel) Kuo,Ohio State University,PhD Researcher,USA,Columbus,kuo.283@buckeyemail.osu.edu,Stakeholder
 Industry , Equipment Manufacturer,Matthias Mayser,Brabender / Anton Paar,Head of Application Laboratory - Food & Feed,Germany,Duisburg,matthias.mayser@anton-paar.com,TBC
 Industry , Equipment Manufacturer,Paul Grant,Brabender / Anton Paar,Territory Manager,New Zealand,Auckland,paul.grant@anton-paar.com,TBC
 Industry , Equipment Manufacturer,Jutta Rieger,Brabender / Anton Paar,Managing Director,Australia,Macquarie Park,jutta.rieger@anton-paar.com,TBC
-Industry , Equipment Manufacturer,Arash Jamalabadi,Brabender / Anton Paar,Technical Sales Specialist,Australia,Melbourne,arash.jamalabadi@anton-paar.com,
-Industry , Equipment Manufacturer,Hooman Tahmasebi,Brabender / Anton Paar,Technical Sales Specialist,Australia,Sydney,hooman.tahmasebi@anton-paar.com,
-Industry , Equipment Manufacturer,Dinesh Kumar,Brabender / Anton Paar,Technical Sales Specialist,Australia,Melbourne,dinesh.kumar@anton-paar.com,
-University,,Girish Ganjyal,Washington State University,Professor,USA,Pullman,girish.ganjyal@wsu.edu,
-University,,Bruno Patricio Costa,Washington State University,Postdoctoral Researcher,USA,Pullman,bruno.costa@wsu.edu,
-University,,Cassandra Walker,Agriculture Victoria Research,Research Leader,Australia,Horsham,cassandra.walker@agriculture.vic.gov.au,
-Industry , Modelling & Simulation,Sohan Birla,S2D Technologies,Director R&D,USA,Carol Stream,slbirla71@gmail.com,
+Industry , Equipment Manufacturer,Arash Jamalabadi,Brabender / Anton Paar,Technical Sales Specialist,Australia,Melbourne,arash.jamalabadi@anton-paar.com,Stakeholder
+Industry , Equipment Manufacturer,Hooman Tahmasebi,Brabender / Anton Paar,Technical Sales Specialist,Australia,Sydney,hooman.tahmasebi@anton-paar.com,Stakeholder
+Industry , Equipment Manufacturer,Dinesh Kumar,Brabender / Anton Paar,Technical Sales Specialist,Australia,Melbourne,dinesh.kumar@anton-paar.com,Stakeholder
+University,,Girish Ganjyal,Washington State University,Professor,USA,Pullman,girish.ganjyal@wsu.edu,Stakeholder
+University,,Bruno Patricio Costa,Washington State University,Postdoctoral Researcher,USA,Pullman,bruno.costa@wsu.edu,Stakeholder
+University,,Cassandra Walker,Agriculture Victoria Research,Research Leader,Australia,Horsham,cassandra.walker@agriculture.vic.gov.au,Stakeholder
+Industry , Modelling & Simulation,Sohan Birla,S2D Technologies,Director R&D,USA,Carol Stream,slbirla71@gmail.com,Stakeholder
 University,,Sun Ferreira,University of Arkansas,Food Scientist / Processing Engineer,USA,Fayetteville,sunfer@uark.edu,Declined
-University,,Francesco Marra,University of Salerno,Associate Professor,Italy,Salerno,fmarra@unisa.it,
-University,,Belal Muhialdin,California State Polytechnic University,Associate Professor,USA,California ,belalhasan@cpp.edu,
-University,,Ashim Datta,Cornell University,Professor,USA,New York,akd1@cornell.edu,
-University,,Kartik Verma,University of Tennessee,Graduate Research Assistant,USA,Knoxville,vermakartik1997@gmail.com,
-Public Research Organisation,,Gerald Marenco-Orozco,Universidade de São Paulo,PhD Researcher,Brazil,São Paulo,gerald.marenco@hotmail.com,
-University,,Tom Purcell,INRAe,PhD Researcher,France,Nantes,tom.purcell.lyon@gmail.com,
-University,,Joshua Bernin,Washington State University,PhD Researcher,USA,Pullman,joshua.bernin@wsu.edu,
-University,,Aniket Kamboj,Washington State University,PhD Researcher,USA,Pullman,aniket.fnu@wsu.edu,
-University,,Job Ubbink,University of Minnesota,Professor,USA,Minnesota,jubbink@umn.edu,
-Public Research Organisation,,Michael Coeurvolan,ONIRIS,PhD Researcher,France,Nantes,michael.coeurvolan@oniris-nantes.fr,
-Industry , Food Manufacturer,Steve Rogers,Rogue Foods,New Product Development Chef,Australia,Melbourne,steve.rogers@norfolkfoods.com.au,
-University,,Andreas Hopf,University of Sydney,PhD Researcher,Australia,Sydney,andreas.hopf@sydney.edu.au,
+University,,Francesco Marra,University of Salerno,Associate Professor,Italy,Salerno,fmarra@unisa.it,Stakeholder
+University,,Belal Muhialdin,California State Polytechnic University,Associate Professor,USA,California ,belalhasan@cpp.edu,Stakeholder
+University,,Ashim Datta,Cornell University,Professor,USA,New York,akd1@cornell.edu,Stakeholder
+University,,Kartik Verma,University of Tennessee,Graduate Research Assistant,USA,Knoxville,vermakartik1997@gmail.com,Stakeholder
+Public Research Organisation,,Gerald Marenco-Orozco,Universidade de São Paulo,PhD Researcher,Brazil,São Paulo,gerald.marenco@hotmail.com,Stakeholder
+University,,Tom Purcell,INRAe,PhD Researcher,France,Nantes,tom.purcell.lyon@gmail.com,Stakeholder
+University,,Joshua Bernin,Washington State University,PhD Researcher,USA,Pullman,joshua.bernin@wsu.edu,Stakeholder
+University,,Aniket Kamboj,Washington State University,PhD Researcher,USA,Pullman,aniket.fnu@wsu.edu,Stakeholder
+University,,Job Ubbink,University of Minnesota,Professor,USA,Minnesota,jubbink@umn.edu,Stakeholder
+Public Research Organisation,,Michael Coeurvolan,ONIRIS,PhD Researcher,France,Nantes,michael.coeurvolan@oniris-nantes.fr,Stakeholder
+Industry , Food Manufacturer,Steve Rogers,Rogue Foods,New Product Development Chef,Australia,Melbourne,steve.rogers@norfolkfoods.com.au,TBC
+University,,Andreas Hopf,University of Sydney,PhD Researcher,Australia,Sydney,andreas.hopf@sydney.edu.au,Stakeholder
 Industry , Equipment Manufacturer,Natasa Taseski,Wenger,Process Engineer,USA,Beijing,ntaseski@wenger.com,Declined
-Industry , Food Manufacturer,Alexandra Valdez,Conagra,Process Engineer,USA,Nebraska,Alexandra.Valdez@conagra.com,
+Industry , Food Manufacturer,Alexandra Valdez,Conagra,Process Engineer,USA,Nebraska,Alexandra.Valdez@conagra.com,Stakeholder
 University,,Billy Lo,RMIT,Postdoctoral Research Assistant,Australia,Melbourne,billy.lo@rmit.edu.au,Session presenter
 University,,Eva-Maria Schmid,RMIT,PhD Researcher,Australia,Melbourne,s3813839@student.rmit.edu.au,Session presenter
-Consultant,,Hongyuan Cheng,Process Engineering Consultancy,Consultant,Denmark,Hørsholm,hyc@thermoextrusion.com,
+Consultant,,Hongyuan Cheng,Process Engineering Consultancy,Consultant,Denmark,Hørsholm,hyc@thermoextrusion.com,Stakeholder
 University,,Yakindra Timilsena,La Trobe University,Research Fellow,Australia,Melbourne,Y.Timilsena@latrobe.edu.au,Organising committee
-Industry , Feed Manufacturer,Facundo Inchaurregui,Real Pet Food Company,R&D Manager (Ambient),Australia,Sydney,Facundo.inchaurregui@RPFCO.com,
+Industry , Feed Manufacturer,Facundo Inchaurregui,Real Pet Food Company,R&D Manager (Ambient),Australia,Sydney,Facundo.inchaurregui@RPFCO.com,TBC
 Industry , Characterisation,Pradipto Bhattacharyya,Online Rheometer Pty Ltd (Rheology Solutions),Joint Managing Director,Australia,Melbourne,pradipto@rheologysolutions.com,Bronze Sponsor
-Industry , Food Manufacturer,Olivia Said,NutriV,,Australia,Melbourne,olivia@nutriv.com.au,Declined
-Industry , Food Manufacturer,Penny Brereton,NutriV,,Australia,Melbourne,penny@nutriv.com.au,Declined
+Industry , Food Manufacturer,Olivia Said,NutriV,Business Development Manager,Australia,Melbourne,olivia@nutriv.com.au,Declined
+Industry , Food Manufacturer,Penny Brereton,NutriV,Board Member,Australia,Melbourne,penny@nutriv.com.au,Declined
 Industry , Food Manufacturer,Ayman Bugshan,NutriV, Production Manager,Australia,Werribee South,Ayman.bugshan@gmail.com,Stakeholder
 Industry , Food Manufacturer,Milan Gurung,NutriV,Production Supervisor,Australia,Werribee South,https://www.linkedin.com/in/milan-gurung-264b2519b/,Stakeholder
-Industry , Feed Manufacturer,John Camilleri,Hypro Group,Managing Director,Australia,"Hawkesbury Valley, NSW",https://www.linkedin.com/in/john-camilleri-6598a5203/,
-Industry , Food Manufacturer,Daniel Hamono,Mitani Group,NPD technician,Australia,Adelaide,https://www.linkedin.com/in/daniel-hamono-9147a5173/,
-Industry , Food Manufacturer,Glen Taylor,Mitani Group,Operations Manager,Australia,Adelaide,https://www.linkedin.com/in/glen-taylor-a4a776b4/,
+Industry , Feed Manufacturer,John Camilleri,Hypro Group,Managing Director,Australia,"Hawkesbury Valley, NSW",https://www.linkedin.com/in/john-camilleri-6598a5203/,Stakeholder
+Industry , Food Manufacturer,Daniel Hamono,Mitani Group,NPD technician,Australia,Adelaide,https://www.linkedin.com/in/daniel-hamono-9147a5173/,Stakeholder
+Industry , Food Manufacturer,Glen Taylor,Mitani Group,Operations Manager,Australia,Adelaide,https://www.linkedin.com/in/glen-taylor-a4a776b4/,Stakeholder
 Industry , Feed Manufacturer,Russell Gibbons,Huds and Toke,Owner,Australia,Queensland,"russell@hudsandtoke.com.au
 
 https://www.linkedin.com/in/russell-gibbons-65a33528/",Stakeholder
-University,,Jinchuang Zhang,Institute of Food Science and Technology,,China,Beijing,zhangjinchuang1002@163.com,
-University,,Yuzhe Gao,Institute of Food Science and Technology,,China,Beijing,wangqiang06@caas.cn,
-University,,Yumin Duan,Shenyang Normal University,,China,Shenyang,yumind7868@sina.com,
-University,,Yuzhe Gao,Shenyang Normal University,,China,Shenyang,gaoyuzhe_66@163.com,
-University,,Aleksei Kaleda,TFTAK ,Principal Investigator,Estonia,Tallinn,aleksei@tftak.eu,
-University,,Yongfeng Ai,University of Saskatchewan,Associate Professor,Canada,Saskatoon,yongfeng.ai@usask.ca,
-University,,Jayani Chandrapala,RMIT,Associate Professor,Australia,Melbourne,jayani.chandrapala@rmit.edu.au,
-Public Research Organisation,,Christina Opaluwa,Fraunhofer IVV,Group Leader,Germany,Freising,christina.opaluwa@ivv.fraunhofer.de,
-University,,Mian Nadeem Riaz,Texas A&M,Professor,USA,Texas,mnriaz@tamu.edu,
-University,,Cornelia Rauh,TU Berlin,Professor,Germany,Berufserfahrung ,cornelia.rauh@tu-berlin.de,
-University,,Syed Rizvi,Cornell University,Professor,USA,New York,ssr3@cornell.edu,
+University,,Jinchuang Zhang,Institute of Food Science and Technology,,China,Beijing,zhangjinchuang1002@163.com,Stakeholder
+University,,Yuzhe Gao,Institute of Food Science and Technology,,China,Beijing,wangqiang06@caas.cn,Stakeholder
+University,,Yumin Duan,Shenyang Normal University,,China,Shenyang,yumind7868@sina.com,Stakeholder
+University,,Yuzhe Gao,Shenyang Normal University,,China,Shenyang,gaoyuzhe_66@163.com,Stakeholder
+University,,Aleksei Kaleda,TFTAK ,Principal Investigator,Estonia,Tallinn,aleksei@tftak.eu,Stakeholder
+University,,Yongfeng Ai,University of Saskatchewan,Associate Professor,Canada,Saskatoon,yongfeng.ai@usask.ca,Stakeholder
+University,,Jayani Chandrapala,RMIT,Associate Professor,Australia,Melbourne,jayani.chandrapala@rmit.edu.au,Stakeholder
+Public Research Organisation,,Christina Opaluwa,Fraunhofer IVV,Group Leader,Germany,Freising,christina.opaluwa@ivv.fraunhofer.de,Stakeholder
+University,,Mian Nadeem Riaz,Texas A&M,Professor,USA,Texas,mnriaz@tamu.edu,Stakeholder
+University,,Cornelia Rauh,TU Berlin,Professor,Germany,Berufserfahrung ,cornelia.rauh@tu-berlin.de,Stakeholder
+University,,Syed Rizvi,Cornell University,Professor,USA,New York,ssr3@cornell.edu,Stakeholder
 University,,Karolina Östbring,Lund University,Senior Lecturer,Sweden,Malmö ,karolina.ostbring@food.lth.se,Declined
-Industry , Food Manufacturer,Nick Standing,Ultra Fine Foods,Managing Director,Australia,Adelaide,linkedin.com/in/nick-standing-6273a628,
-University,,Michele Eliza Cortazzo Menis Henrique,Universidade Estadual Paulista Julio de Mesquita Filho,Professor,Brazil,São Paulo,michele.menis-henrique@unesp.br,
-Industry , Food Manufacturer,Daniel Janka,Fyna Foods Australia Pty Ltd,Business Operations Manager,Australia,Hallam,Daniel Janka | LinkedIn,
+Industry , Food Manufacturer,Nick Standing,Ultra Fine Foods,Managing Director,Australia,Adelaide,linkedin.com/in/nick-standing-6273a628,Stakeholder
+University,,Michele Eliza Cortazzo Menis Henrique,Universidade Estadual Paulista Julio de Mesquita Filho,Professor,Brazil,São Paulo,michele.menis-henrique@unesp.br,Stakeholder
+Industry , Food Manufacturer,Daniel Janka,Fyna Foods Australia Pty Ltd,Business Operations Manager,Australia,Hallam,Daniel Janka | LinkedIn,TBC
 University,,Michael Beyrer,HES-SO Valais-Wallis,Professor,Switzerland,Valais,michael.beyrer@hevs.ch,Declined
 University,,Mario Martinez-Martinez,Aarhus University,Associate Professor,Finland,,mm@food.au.dk,Declined
 University,,Ana Carolina Conti,Universidade Estadual Paulista,,Brazil,,ac.conti@unesp.br,Declined
 Industry , Food Manufacturer,Kristi Riordan,HarvestB,,Australia,Sydney,kristi@harvestb.io,Declined
-Industry , Food Manufacturer,Isabelle Thomas,Integra Foods,,,,isabelle@integrafoods.com.au,
-University,,Hongyuan Cheng,Chinese Academy of Agricultural Sciences,Senior Researcher,China,Beijing,chenghongyuan@caas.cn,
-University,,Kirsi Jouppila,University of Helsinki,Senior University Lecturer,Finland,Helsinki,kirsi.jouppila@helsinki.fi,
-Consultant,,Anna Martin,,Freelance Food Technology Consulting,Germany,Munich,annajohannamartin@gmail.com,
-University,,Francis (Gichuho) Irungu,Chuka University,Tutorial Fellow,Kenya,,gichuhofrancis@gmail.com,
-University,,Nesli Sözer,VTT,Research Professor,Finland,Espoo,nesli.sozer@vtt.fi,
-University,,Sara Mohamed Gaber Mohamed,Nofima,Scientist,Norway,Tromso,sara.gaber@nofima.no,
-Industry , Characterisation,Ashish Kumar,Anton Paar,National Product and Sales Manager,Australia,Melbourne,ashish.kumar@anton-paar.com,
-University,,Jaejoon Han,Univeristy of Korea,Professor,Korea,Seoul,jjhan@korea.ac.kr,
-University,,Inyoung Choi,Korea University,"Postdoctoral Fellow, UC Davis",Korea,,haunlzy@naver.com,
-University,,Jung-Soo Lee,Korea University,Postdoctoral Researcher,Korea,,food_passion@naver.com,
-University,,Rene Lametsch,University of Copenaghen,Associate Professor,Denmark,Copenaghen,rla@food.ku.dk,
-University,,Raffael Osen,SIFBI - Singapore Institute of Food and Biotechnology Innovation,Group Leader,Singapore,,Raffael_Osen@sifbi.a-star.edu.sg,
-University,,Anni Nisov,VTT,Research Scientist,Finland,Espoo,anni.nisov@vtt.fi,
-University,,Ryu Ki-Hyung,Kongju National University,Professor,South Korea, Yesan County,ghryu@kongju.ac.kr,
-University,,Michael Parker,Massey University,Senior Lecturer,New Zeland,Auckland,M.E.Parker@massey.ac.nz,
-University,,Sui Xiaonan,Northeast Agricultural University,Second-level professor,China,Harbin,xiaonan.sui@neau.edu.cn,
-University,,Jiang Lianzhou,Northeast Agricultural University,"Professor, doctoral supervisor",China,Harbin,jlzname@163.com,
-University,,Zhang Yan,Northeast Agricultural University,"Professor, Doctoral SupervisorProfessor, Doctoral Supervisor",China,Harbin,zhang_yan@neau.edu.cn,
+University, Food Manufacturer,Hongyuan Cheng,Chinese Academy of Agricultural Sciences,Senior Researcher,China,Beijing,chenghongyuan@caas.cn,Stakeholder
+University,,Kirsi Jouppila,University of Helsinki,Senior University Lecturer,Finland,Helsinki,kirsi.jouppila@helsinki.fi,Stakeholder
+Consultant,,Anna Martin,,Freelance Food Technology Consulting,Germany,Munich,annajohannamartin@gmail.com,Stakeholder
+University,,Francis (Gichuho) Irungu,Chuka University,Tutorial Fellow,Kenya,,gichuhofrancis@gmail.com,Stakeholder
+University,,Nesli Sözer,VTT,Research Professor,Finland,Espoo,nesli.sozer@vtt.fi,Stakeholder
+University,,Sara Mohamed Gaber Mohamed,Nofima,Scientist,Norway,Tromso,sara.gaber@nofima.no,Stakeholder
+Industry ,,Ashish Kumar,Anton Paar,National Product and Sales Manager,Australia,Melbourne,ashish.kumar@anton-paar.com,Stakeholder
+University, Characterisation,Jaejoon Han,Univeristy of Korea,Professor,Korea,Seoul,jjhan@korea.ac.kr,Stakeholder
+University,,Inyoung Choi,Korea University,"Postdoctoral Fellow, UC Davis",Korea,,haunlzy@naver.com,Stakeholder
+University,,Jung-Soo Lee,Korea University,Postdoctoral Researcher,Korea,,food_passion@naver.com,Stakeholder
+University,,Rene Lametsch,University of Copenaghen,Associate Professor,Denmark,Copenaghen,rla@food.ku.dk,Stakeholder
+University,,Raffael Osen,SIFBI - Singapore Institute of Food and Biotechnology Innovation,Group Leader,Singapore,,Raffael_Osen@sifbi.a-star.edu.sg,Stakeholder
+University,,Anni Nisov,VTT,Research Scientist,Finland,Espoo,anni.nisov@vtt.fi,Stakeholder
+University,,Ryu Ki-Hyung,Kongju National University,Professor,South Korea, Yesan County,ghryu@kongju.ac.kr,Stakeholder
+University,,Michael Parker,Massey University,Senior Lecturer,New Zeland,Auckland,M.E.Parker@massey.ac.nz,Stakeholder
+University,,Sui Xiaonan,Northeast Agricultural University,Second-level professor,China,Harbin,xiaonan.sui@neau.edu.cn,Stakeholder
+University,,Jiang Lianzhou,Northeast Agricultural University,"Professor, doctoral supervisor",China,Harbin,jlzname@163.com,Stakeholder
+University,,Zhang Yan,Northeast Agricultural University,"Professor, Doctoral SupervisorProfessor, Doctoral Supervisor",China,Harbin,zhang_yan@neau.edu.cn,Stakeholder
 University,,"Sergiy Smetana
-",German Institute of Food Technologies,ProfessorHead of Department at German Institute of Food Technologies,Germany,Quakenbrück,s.smetana@dil-ev.de,
-University,,Knut Franke,German Institute of Food Technologies,,,,k.franke@dil-ev.de,
+",German Institute of Food Technologies,ProfessorHead of Department at German Institute of Food Technologies,Germany,Quakenbrück,s.smetana@dil-ev.de,Stakeholder
+University,,Knut Franke,German Institute of Food Technologies,Lecturer,Germany,Hannover ,k.franke@dil-ev.de,Stakeholder
 University,,"Nur Izalin Binti Mohamad Zahari
-",Lund University,PhD Student,Sweden,Lund,izalin.zahari@food.lth.se,
-University,,Jeanette Purhagen,Lund University,Senior lecturer,Sweden,Lund,jeanette.purhagen@food.lth.se,
+",Lund University,PhD Student,Sweden,Lund,izalin.zahari@food.lth.se,Stakeholder
+University,,Jeanette Purhagen,Lund University,Senior lecturer,Sweden,Lund,jeanette.purhagen@food.lth.se,Stakeholder
 University,,"Pinja Pöri
-",VTT,Research Scientist,Finland,Espoo,pinja.pori@vtt.fi,
-University,,Emilia Nordlund,VTT,Research Manager,Finland,Espoo,emilia.nordlund@vtt.fi,
+",VTT,Research Scientist,Finland,Espoo,pinja.pori@vtt.fi,Stakeholder
+University,,Emilia Nordlund,VTT,Research Manager,Finland,Espoo,emilia.nordlund@vtt.fi,Stakeholder
 University,,"Ferawati Ferawati
-",Linnaeus University,Doctor of Phiolosophy,Sweden," Växjö, Kalmar",ferawati.ferawati@lnu.se,
-Research Organisation,,Mari-Liis Tammik,TFTAK,"Food Researcher, Project Manager",Estonia,Tallinn,mariliis.tammik@tftak.eu,
-Research Organisation,,"Catia Saldanha do Carmo
-
-",NOFIMA AS,PostDoc Position,Norway,Tromsø,catia.carmo@nofima.no,
-University,,Katja Kantanen,University of Helsinki,Doctoral Candidate,Finland,Helsinki,katja.kantanen@helsinki.fi,
-University,,Ruud van der Sman,Wageningen University & Research,"Senior Researcher Food Physics, Professor",Netherlands,Wageningen,ruud.vandersman@wur.nl,
-University,,Songgang Xia,Ocean University of China,,China,Qingdao,songgang_xia@163.com,
-University,,Jing Li,Ocean University of China,Assistant Professor,China,Qingdao,lijouc@ouc.edu.cn,
-University,,Mika Immonen,Lappeenranta–Lahti University of Technology LUT,Associate professor,Finland,Lappeenranta,mika.immonen@helsinki.fi,
+",Linnaeus University,Doctor of Phiolosophy,Sweden," Växjö, Kalmar",ferawati.ferawati@lnu.se,Stakeholder
+Research Organisation,,Mari-Liis Tammik,TFTAK,"Food Researcher, Project Manager",Estonia,Tallinn,mariliis.tammik@tftak.eu,Stakeholder
+Research Organisation,,Catia Saldanha do Carmo,NOFIMA AS,Postdoctoral Researcher,Norway,Tromsø,catia.carmo@nofima.no,Stakeholder
+University,,Katja Kantanen,University of Helsinki,Doctoral Candidate,Finland,Helsinki,katja.kantanen@helsinki.fi,Stakeholder
+University,,Ruud van der Sman,Wageningen University & Research,"Senior Researcher Food Physics, Professor",Netherlands,Wageningen,ruud.vandersman@wur.nl,Stakeholder
+University,,Songgang Xia,Ocean University of China,,China,Qingdao,songgang_xia@163.com,Stakeholder
+University,,Jing Li,Ocean University of China,Assistant Professor,China,Qingdao,lijouc@ouc.edu.cn,Stakeholder
+University,,Mika Immonen,Lappeenranta–Lahti University of Technology LUT,Associate professor,Finland,Lappeenranta,mika.immonen@helsinki.fi,Stakeholder
 University,,Tuula Sontag-Strohm,University of Helsinki,"Docent
-Supervisor in the Doctoral Programme",Finland,Helsinki,tuula.sontag-strohm@helsinki.fi,
-University,,Nazamid Saari,"Faculty of Food Science and Technology, Universiti Putra Malaysia",Professor,Malaysia,Selangor,nazamid@upm.edu.my,
+Supervisor in the Doctoral Programme",Finland,Helsinki,tuula.sontag-strohm@helsinki.fi,Stakeholder
+University,,Nazamid Saari,"Faculty of Food Science and Technology, Universiti Putra Malaysia",Professor,Malaysia,Selangor,nazamid@upm.edu.my,Stakeholder
 University,,"
-Antonella Pasqualone",Università degli studi di Bari Aldo Moro,Professore Associato,Italy,Bari,antonella.pasqualone@uniba.it,
-University,,Aunchalee Aussanasuwannakul,Kasetsart University (IFRPD),Researcher,Thailand,Bankgok,aunchalee.a@ku.th,
-University,,NAZLI ?AH?N,Karamanoglu Mehmetbey University,Associate Professor,Turkey,Karaman,nsahin@kmu.edu.tr,
+Antonella Pasqualone",Università degli studi di Bari Aldo Moro,Professore Associato,Italy,Bari,antonella.pasqualone@uniba.it,Stakeholder
+University,,Aunchalee Aussanasuwannakul,Kasetsart University (IFRPD),Researcher,Thailand,Bankgok,aunchalee.a@ku.th,Stakeholder
+University,,NAZLI ?AH?N,Karamanoglu Mehmetbey University,Associate Professor,Turkey,Karaman,nsahin@kmu.edu.tr,Stakeholder
 University,,"HATAICHANOK
-KANTRONG",Kasetsart University (IFRPD),Head of Department,Thailand,Bankgok,hataichanok.kan@ku.th,
-University,,Yang Jie,Feed Research Institute of the Chinese Academy of Agricultural Sciences,,China,Beijing,yangjie02@caas.cn,
-University,,Qiang Zhao,Nanchang University Food College,Professor,China, Nanchang City,qiangzhao@ncu.edu.cn,
-University,,Min Wu,China Agricultural University,Associate Professor,China,Beijing,minwu@cau.edu.cn,
-University,,Dr. Syed Zameer Hussain,The Indira Gandhi National Open University  - Srinagar Centre,Professor and Head,India,Jammu and Kashmir,zameerskuastj@rediffmail.com,
-University,,Dorota Gumul,University of Agriculture in Krakow,Adiunct,Poland,Krakow,rrgumul@cyf-kr.edu.pl,
-University,,Aiquan Jiao,Hebei University of Engineering,,Handan,China,aqjiao@jiangnan.edu.cn,
+KANTRONG",Kasetsart University (IFRPD),Head of Department,Thailand,Bankgok,hataichanok.kan@ku.th,Stakeholder
+University,,Yang Jie,Feed Research Institute of the Chinese Academy of Agricultural Sciences,Associate Professor,China,Beijing,yangjie02@caas.cn,Stakeholder
+University,,Qiang Zhao,Nanchang University Food College,Professor,China, Nanchang City,qiangzhao@ncu.edu.cn,Stakeholder
+University,,Min Wu,China Agricultural University,Associate Professor,China,Beijing,minwu@cau.edu.cn,Stakeholder
+University,,Dr. Syed Zameer Hussain,The Indira Gandhi National Open University  - Srinagar Centre,Professor and Head,India,Jammu and Kashmir,zameerskuastj@rediffmail.com,Stakeholder
+University,,Dorota Gumul,University of Agriculture in Krakow,Adiunct,Poland,Krakow,rrgumul@cyf-kr.edu.pl,Stakeholder
+University,,Aiquan Jiao,Hebei University of Engineering,Lecturer,Handan,China,aqjiao@jiangnan.edu.cn,Stakeholder
 University,,Maria Gräfenhahn,HES-SO Valais-Wallis,"
-Senior academic associate UAS",Sion,Switzerland,maria.grafenhahn@hevs.ch,
-Industry , Equipment Manufacturer,Jay Pokorny,Extru-Tech,"Innovation Group Leader at Extru-Tech, Inc.",Kansas,USA,jpokorny@extru-techinc.com,
+Senior academic associate UAS",Sion,Switzerland,maria.grafenhahn@hevs.ch,Stakeholder
+Industry ,,Jay Pokorny,Extru-Tech,"Innovation Group Leader at Extru-Tech, Inc.",Kansas,USA,jpokorny@extru-techinc.com,Stakeholder
 Industry , Equipment Manufacturer,Philipp Fritschi,Buhler,"Regional Manager, Value Nutrition",China,Jiangsu,philipp.fritschi@buhlergroup.com,TBC
 Industry , Equipment Manufacturer,Peter Tricarico,Coperion,Sales Manager Oceania (Food I Health I Nutrition),Australia,Melbourne,Peter.tricarico@coperion.com,General Participant
-Industry , Food Manufacturer,Jamie Carrico,Integra Foods,,,,jamie@integrafoods.com.au,
-Industry , Food Manufacturer,Tom Reddecliffe,Integra Foods,,,,tom@integrafoods.com.au,TBC
-University,,Charles Brennan,RMIT University,Professor - Chief Scientific Director,Melbourne,Australia,charles.brennan@rmit.edu.au,Stakeholder
-Research Organisation,,Erik Kaunisto,RISE - Research Institutes of Sweden,Ph. D. in Chemical Engineering/Pharmaceutical technology ,Stockholm,Sweden,erik.kaunisto@ri.se,
-University,,Jesús Rodríguez-Miranda,Instituto Tecnológico de Tuxtepec,,Tuxtepec,Mexico,jesrodmir@gmail.com,
-University,,Julie Frost Dahl,Aarhus University,Researcher,Aarhus,Denmark,julie_tinghoej@hotmail.com,Declined
-University,,Marti Alessandra,University of Milan,"Department of Food, Environmental and Nutritional Sciences",Milano,Italy,alessandra.marti@unimi.it,
-University,,Massimo Blandino,University of Turin,Associate Professor,Torino,Italy,massimo.blandino@unito.it,
-University,,Milena Corredig,Aarhus University,Professor,Aarhus,Denmark,mc@food.au.dk,
-University,,Narpinder Singh,Guru Nanak Dev University,Professor, Amritsar,India,narpinders@yahoo.com,
-University,,Sangeeta Prakash,The University of Queensland,Associate Professor,Brisbane,Australia,s.prakash@uq.edu.au,
-Research Organisation,,Svein Halvor Knutsen,Neofima,PhD - Senior Scientist,Tromso,Norway,svein.knutsen@nofima.no,
-Industry , Equipment Manufacturer,Michelle Zhang,CPM,,,,zhangm@centuryextrusion.com,
-University ,,Prof Yoav D. Livney,Israel Institute of Technology,Director,,,livney@technion.ac.il,
-Consultant,,Stuart,Extrusion Co,BD,,,stuart@extrusionco.co.nz,
-University ,,Prof Siew-Young Quek,Uni Auckland,,,,sy.quek@auckland.ac.nz <sy.quek@auckland.ac.nz>,
-University,,Prof YunFei Xie,"JiangNan University, China",Dean,,,Yunfei Xie <xieyunfei@jiangnan.edu.cn>,
-University,,Prof Charles Brennan,RMIT,Dean,,,charles.brennan <charles.brennan@rmit.edu.au>,
-Industry , Ingredient Manufacturer,Steve Strutt,AlgaePharm,,,,stephen.strutt@woodsgroup.com.au,
-Industry , Characterisation,Gabriela Saavedraisusi,ThermoFisher,,Germany,Karlsruhe,gabriela.saavedraisusi@thermofisher.com,TBC
-Industry , Ingredient Manufacturer,Gaurav Dhumal,ICL Group,,,,Gaurav.Dhumal@icl-group.com,General Participant
-Industry , Food Manufacturer,Ann Limley,Pivot Eat,Founder,Australia,Melbourne,ann.limley@gmail.com,General Participant
-Industry , Ingredient Manufacturer,Constanza Hatchondo,General Mills,,Australia,Sydney,constanzahatchondo@gmail.com,TBC
-Industry , Food Manufacturer,Troy,Kagome,,,,,
-Industry , Food Manufacturer,Ranjit,Kagome,,,,,
-Industry , additives supplier,Barbora Jabloncikova,DSM,,Au,,Barbora.Jabloncikova@dsm.com,
-Industry , additives supplier,Wayne Bradshaw,Jefo,,Au,,Linked in?,
-Industry , additives supplier,Leon Hall,BASF,,Au,,leon.hall@basf.com,
-Industry , additives supplier,Florence Motte,SPF,,Au,,https://www.linkedin.com/in/florencemotte/,
-Industry , additives supplier,Leona Tooley; Shona Crawford,Kemin Industries,,Au,,leona.tooley@kemin.com; shonaclark@gmail.com,
-University,,Jes Sammut,UNSW,,Au,,,
-University,,Leo Nankervis ,JCU,,Au,,leo.nankervis@jcu.edu.au,
-Industry , additives supplier,Malcolm Mottram,FeedWorks,,Au,,mal.mottram@feedworks.com.au,
-Industry , additives supplier,Yumin Bao,Redox,,,,Yumin.Bao@redox.com,
-University,,Kristy DiGiacomo,Uni of Melbourne,,Au,,kristyd@unimelb.edu.au,
-R&D provider,,Richard Le Boucher,Temasek Singapore,,Singapore,,richard@tll.org.sg,
-University,,Weibiao ZHOU,National University of Singapore,,Singapore,,weibiao@nus.edu.sg,
-University,,Erich Windhab,ETH Zurich,,,,,
-Industry , Equipment Manufacturer,Stuart Carrico,Wenger Manufacturing,Sales for Food Processing,,,,
-Industry , Equipment Manufacturer,Jesse Mitchell,Wenger Manufacturing,Experienced Technical Sales Professional ,,,,
-Industry , Ingredient Manufacturer,,Ben Furney ,,,,,
-Industry , Ingredient Manufacturer,,IFF,,,,,
+Industry , Equipment Manufacturer,Isabelle Thomas,Integra Foods,Logistics and Sales,,,isabelle@integrafoods.com.au,TBC
+Industry , Food Manufacturer,Jamie Carrico,Integra Foods,Account Manager,Australia,Adelaide,jamie@integrafoods.com.au,TBC
+Industry , Food Manufacturer,Tom Reddecliffe,Integra Foods,Director,Australia,Adelaide,tom@integrafoods.com.au,TBC
+University,,Charles Brennan,RMIT University,Professor - Chief Scientific Director,Australia,Melbourne,charles.brennan@rmit.edu.au,Stakeholder
+Research Organisation,,Erik Kaunisto,RISE - Research Institutes of Sweden,Ph. D. in Chemical Engineering/Pharmaceutical technology ,Sweden,Stockholm,erik.kaunisto@ri.se,Stakeholder
+University,,Jesús Rodríguez-Miranda,Instituto Tecnológico de Tuxtepec,Professor,Mexico,Veracruz,jesrodmir@gmail.com,Stakeholder
+University,,Marti Alessandra,University of Milan,"Department of Food, Environmental and Nutritional Sciences",Italy,Milano,alessandra.marti@unimi.it,Stakeholder
+University,,Massimo Blandino,University of Turin,Associate Professor,Italy,Torino,massimo.blandino@unito.it,Stakeholder
+University,,Milena Corredig,Aarhus University,Professor,Denmark,Aarhus,mc@food.au.dk,Stakeholder
+University,,Narpinder Singh,Guru Nanak Dev University,Professor,India, Amritsar,narpinders@yahoo.com,Stakeholder
+University,,Sangeeta Prakash,The University of Queensland,Associate Professor,Australia,Brisbane,s.prakash@uq.edu.au,Stakeholder
+Research Organisation,,Svein Halvor Knutsen,Neofima,PhD - Senior Scientist,Norway,Tromso,svein.knutsen@nofima.no,Stakeholder
+Industry ,,Michelle Zhang,CPM Century Extrusion,Regional Sales Manager Asia,USA,Saginaw,zhangm@centuryextrusion.com,Stakeholder
+University , Equipment Manufacturer,Yoav D. Livney,Israel Institute of Technology,Director,Canada,Vancouver,livney@technion.ac.il,Stakeholder
+Consultant,,Stuart Walker,Extrusion Co,Director,New Zeland,Auckland,stuart@extrusionco.co.nz,Stakeholder
+University ,,Siew-Young Quek,Uni Auckland,,New Zeland,Auckland,sy.quek@auckland.ac.nz <sy.quek@auckland.ac.nz>,Stakeholder
+University,,YunFei Xie,JiangNan University,Dean,China,Jiangnan ,Yunfei Xie <xieyunfei@jiangnan.edu.cn>,Stakeholder
+University,,Charles Brennan,RMIT,Chief Scientific Director,Australia,Melbourne,charles.brennan <charles.brennan@rmit.edu.au>,Stakeholder
+Industry ,,Steve Strutt,AlgaePharm,Business Development Manager,Australia,Melbourne,stephen.strutt@woodsgroup.com.au,Stakeholder
+Industry , Ingredient Manufacturer,Gabriela Saavedraisusi,ThermoFisher,Application Specialist,Germany,Karlsruhe,gabriela.saavedraisusi@thermofisher.com,TBC
+Industry , Characterisation,Gaurav Dhumal,ICL Group,Senior Scientist New Product Development,USA,St Louis,Gaurav.Dhumal@icl-group.com,General Participant
+Industry , Ingredient Manufacturer,Ann Limley,Pivot Eat,Founder,Australia,Melbourne,ann.limley@gmail.com,General Participant
+Industry , Food Manufacturer,Constanza Hatchondo,General Mills,R&D Technologist,Australia,Sydney,constanzahatchondo@gmail.com,TBC
+Industry , Ingredient Manufacturer,Troy Hudgson,Kagome,General Manager - Functional Ingredients Category,Australia,Echuca Village,,Stakeholder
+Industry , Food Manufacturer,Ranjit Peddapuli ,Kagome,,Australia,Echuca Village,,Stakeholder
+Industry , Food Manufacturer,Barbora Jabloncikova,DSM,Animal nutrition and health,Australia,Wodonga,Barbora.Jabloncikova@dsm.com,Stakeholder
+Industry , additives supplier,Wayne Bradshaw,Jefo,Managing Director,Australia,Toowoomba,Linked in?,Stakeholder
+Industry , additives supplier,Leon Hall,BASF,"Senior Manager: Team Lead, Feed Enzymes and Feed Performance Ingredients",Australia,Melbourne,leon.hall@basf.com,Stakeholder
+Industry , additives supplier,Florence Motte,Symrise Pet Food Australia,Managing Director,Australia,Beresfield,https://www.linkedin.com/in/florencemotte/,Stakeholder
+Industry, additives supplier,Shona Crawford,Kemin Industries,Nutrisurance Asia Pacific CLS Laboratory Manager,Australia,Mount Duneed,,Stakeholder
+University, additives supplier,Jes Sammut,UNSW,Professor,Australia,Sydney,,Stakeholder
+University,,Leo Nankervis ,James Cook University,Associate Professor,Australia,Townsville,leo.nankervis@jcu.edu.au,Stakeholder
+Industry - additives supplier,,Malcolm Mottram,FeedWorks,Managing Partner,Australia,Lancefield,mal.mottram@feedworks.com.au,Stakeholder
+Industry - additives supplier, additives supplier,Yumin Bao,Redox,Animal nutritionist,Australia,Sydney,Yumin.Bao@redox.com,Stakeholder
+University, additives supplier,Kristy DiGiacomo,Uni of Melbourne,Senior Lecturer,Australia,Parkville,kristyd@unimelb.edu.au,Stakeholder
+R&D provider,,Richard Le Boucher,Temasek Singapore,Research Director,Singapore,Singapore,richard@tll.org.sg,Stakeholder
+University,,Weibiao ZHOU,National University of Singapore,Professor,Singapore,Singapore,weibiao@nus.edu.sg,Stakeholder
+University,,Erich Windhab,ETH Zurich,Professor,Switzerland,Zurich,,Stakeholder
+Industry - Equipment Manufacturer,,Stuart Carrico,Wenger Manufacturing,Engineering and Support for Equipment Sales,USA,Missouri,,TBC
+Industry - Equipment Manufacturer, Equipment Manufacturer,Jesse Mitchell,Wenger Manufacturing,Technical Sales - Companion Animal & Aquafeed,USA,Kansas,,TBC
+Industry , Equipment Manufacturer,Jesse Mitchell,Wenger Manufacturing,Experienced Technical Sales Professional ,,,,Stakeholder
+Industry , Ingredient Manufacturer,,Ben Furney ,,,,,Stakeholder
+Industry , Ingredient Manufacturer,,IFF,,,,,Stakeholder
 Industry , Feed Manufacturer,,"Premier Petfoods
 The Great Australian Petfood Co",,Australia,Caringbah NSW,https://kibble.com.au/,
 Industry , Food Manufacturer,,Uncle Tobys,,,,,
