@@ -107,6 +107,8 @@ app = dash.Dash(
     external_stylesheets=[dbc.themes.FLATLY],
     suppress_callback_exceptions=True
 )
+
+server = app.server
 app.title = "Extrusion Stakeholder Map"
 
 # ──────────────────────────────────────────────────────────────────────────────
