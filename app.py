@@ -389,7 +389,7 @@ def update_map(statuses, cats, countries, affils, search):
 
     # 5) Build markers, using override colour if set
     markers = []
-    for (lat, lon), group in dff.groupby(["Latitude","Longitude"]):
+    for i, ((lat, lon), group) in enumerate(dff.groupby(["Latitude","Longitude"])):
         row0   = group.iloc[0]
         colour = override if override is not None else status_to_colour[row0.Status]
         radius = 8 + 2*min(len(group), 10)
@@ -413,6 +413,7 @@ def update_map(statuses, cats, countries, affils, search):
 
         markers.append(
             dl.CircleMarker(
+               id=f"marker-{lat}-{lon}-{i}",
                center=[lat,lon],
                radius=radius,
                color=colour,
