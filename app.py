@@ -350,9 +350,12 @@ def update_map(statuses, cats, countries, affils, search):
         term = search.strip()
         text_mask = (
             df[["Name","Affiliation","Category","Country","City","Position"]]
-              .apply(lambda col:
-                     col.astype(str).str.contains(term, case=False, na=False),
-                     axis=1)
+              .apply(
+                  lambda col: col.astype(str)
+                                    .str.contains(term, case=False, na=False,
+                                                  regex=False),
+                  axis=1
+              )
               .any(axis=1)
         )
         m &= text_mask
@@ -446,16 +449,16 @@ def update_visible_table(bounds, statuses, cats, countries,
     if affils:
         m &= df["Affiliation"].isin(affils)
     if search:
-        term = search.strip()
-        txt = (
-            df[["Name","Affiliation","Category",
-                "Country","City","Position"]]
-              .apply(lambda col:
-                     col.astype(str).str.contains(term, case=False, na=False),
-                     axis=1)
-              .any(axis=1)
-        )
-        m &= txt
+        s = search.strip()
+        mask = df[["Name","Affiliation","Category","Country","City","Position"]] \
+                  .apply(
+                      lambda col: col.astype(str)
+                                       .str.contains(s, case=False, na=False,
+                                                    regex=False),
+                      axis=1
+                  ).any(axis=1)
+        m &= mask
+
 
     vis = df[m]
     if bounds:
