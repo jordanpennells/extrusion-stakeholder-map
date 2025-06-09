@@ -99,7 +99,7 @@ Industry, Equipment Manufacturer,Aparna Venkatesh ,Buhler,Collaborative Innovati
 Industry, Equipment Manufacturer,Lukas Freiburghaus ,Buhler,Head of Market Segment Proteins & Ingredients,Switzerland,Zurich,lukas.freiburghaus@buhlergroup.com,Stakeholder
 Industry, Equipment Manufacturer,Timothy Krugh ,Buhler,Training Academy Coordinator,Switzerland,Uzwil,timothy.krugh@buhlergroup.com,Stakeholder
 Industry, Equipment Manufacturer,Wolfgang Steiner ,Buhler,Head of Digital - BA Value Nutrition,Switzerland,Uzwil,wolfgang.steiner@buhlergroup.com,Stakeholder
-Industry, Equipment Manufacturer,Enzhi Michael Cheng,CPM,Process Development Director,USA,Cleveland,ezc9595@gmail.com,Stakeholder
+Industry, Equipment Manufacturer,Enzhi Michael Cheng,CPM Century,Process Development Director,USA,Cleveland,ezc9595@gmail.com,Stakeholder
 Industry, Equipment Manufacturer,Cecil Vosser,CFAM International,Food and Feed Extrusion Technician,South Africa,Potchefstroom,,Stakeholder
 Industry, Equipment Manufacturer,Danie Vorster,CFAM International,Director,South Africa,Potchefstroom,danie.vorster@icloud.com,TBC
 Industry, Equipment Manufacturer,LJ Grobler,CFAM International,Executive Director,South Africa,Vanderbijlpark,,Stakeholder
@@ -253,14 +253,14 @@ University,,Michael Beyrer,HES-SO Valais-Wallis,Professor,Switzerland,Valais,mic
 University,,Mario Martinez-Martinez,Aarhus University,Associate Professor,Finland,,mm@food.au.dk,Declined
 University,,Ana Carolina Conti,Universidade Estadual Paulista,,Brazil,,ac.conti@unesp.br,Declined
 Industry, Food Manufacturer,Kristi Riordan,HarvestB,,Australia,Sydney,kristi@harvestb.io,Declined
-University, Food Manufacturer,Hongyuan Cheng,Chinese Academy of Agricultural Sciences,Senior Researcher,China,Beijing,chenghongyuan@caas.cn,Stakeholder
+University,,Hongyuan Cheng,Chinese Academy of Agricultural Sciences,Senior Researcher,China,Beijing,chenghongyuan@caas.cn,Stakeholder
 University,,Kirsi Jouppila,University of Helsinki,Senior University Lecturer,Finland,Helsinki,kirsi.jouppila@helsinki.fi,Stakeholder
 Consultant,,Anna Martin,,Freelance Food Technology Consulting,Germany,Munich,annajohannamartin@gmail.com,Stakeholder
 University,,Francis (Gichuho) Irungu,Chuka University,Tutorial Fellow,Kenya,,gichuhofrancis@gmail.com,Stakeholder
 University,,Nesli Sözer,VTT,Research Professor,Finland,Espoo,nesli.sozer@vtt.fi,Stakeholder
 University,,Sara Mohamed Gaber Mohamed,Nofima,Scientist,Norway,Tromso,sara.gaber@nofima.no,Stakeholder
-Industry,,Ashish Kumar,Anton Paar,National Product and Sales Manager,Australia,Melbourne,ashish.kumar@anton-paar.com,Stakeholder
-University, Characterisation,Jaejoon Han,Univeristy of Korea,Professor,Korea,Seoul,jjhan@korea.ac.kr,Stakeholder
+Industry, Characterisation,Ashish Kumar,Anton Paar,National Product and Sales Manager,Australia,Melbourne,ashish.kumar@anton-paar.com,Stakeholder
+University,,Jaejoon Han,Univeristy of Korea,Professor,Korea,Seoul,jjhan@korea.ac.kr,Stakeholder
 University,,Inyoung Choi,Korea University,"Postdoctoral Fellow, UC Davis",Korea,,haunlzy@naver.com,Stakeholder
 University,,Jung-Soo Lee,Korea University,Postdoctoral Researcher,Korea,,food_passion@naver.com,Stakeholder
 University,,Rene Lametsch,University of Copenaghen,Associate Professor,Denmark,Copenaghen,rla@food.ku.dk,Stakeholder
@@ -306,10 +306,10 @@ University,,Dorota Gumul,University of Agriculture in Krakow,Adiunct,Poland,Krak
 University,,Aiquan Jiao,Hebei University of Engineering,Lecturer,Handan,China,aqjiao@jiangnan.edu.cn,Stakeholder
 University,,Maria Gräfenhahn,HES-SO Valais-Wallis,"
 Senior academic associate UAS",Sion,Switzerland,maria.grafenhahn@hevs.ch,Stakeholder
-Industry,,Jay Pokorny,Extru-Tech,"Innovation Group Leader at Extru-Tech, Inc.",Kansas,USA,jpokorny@extru-techinc.com,Stakeholder
+Industry, Equipment Manufacturer,Jay Pokorny,Extru-Tech,"Innovation Group Leader at Extru-Tech, Inc.",Kansas,USA,jpokorny@extru-techinc.com,Stakeholder
 Industry, Equipment Manufacturer,Philipp Fritschi,Buhler,"Regional Manager, Value Nutrition",China,Jiangsu,philipp.fritschi@buhlergroup.com,TBC
 Industry, Equipment Manufacturer,Peter Tricarico,Coperion,Sales Manager Oceania (Food I Health I Nutrition),Australia,Melbourne,Peter.tricarico@coperion.com,General Participant
-Industry, Equipment Manufacturer,Isabelle Thomas,Integra Foods,Logistics and Sales,,,isabelle@integrafoods.com.au,TBC
+Industry, Food Manufacturer,Isabelle Thomas,Integra Foods,Logistics and Sales,,,isabelle@integrafoods.com.au,TBC
 Industry, Food Manufacturer,Jamie Carrico,Integra Foods,Account Manager,Australia,Adelaide,jamie@integrafoods.com.au,TBC
 Industry, Food Manufacturer,Tom Reddecliffe,Integra Foods,Director,Australia,Adelaide,tom@integrafoods.com.au,TBC
 University,,Charles Brennan,RMIT University,Professor - Chief Scientific Director,Australia,Melbourne,charles.brennan@rmit.edu.au,Stakeholder
@@ -321,45 +321,46 @@ University,,Milena Corredig,Aarhus University,Professor,Denmark,Aarhus,mc@food.a
 University,,Narpinder Singh,Guru Nanak Dev University,Professor,India, Amritsar,narpinders@yahoo.com,Stakeholder
 University,,Sangeeta Prakash,The University of Queensland,Associate Professor,Australia,Brisbane,s.prakash@uq.edu.au,Stakeholder
 Research Organisation,,Svein Halvor Knutsen,Neofima,PhD - Senior Scientist,Norway,Tromso,svein.knutsen@nofima.no,Stakeholder
-Industry,,Michelle Zhang,CPM Century Extrusion,Regional Sales Manager Asia,USA,Saginaw,zhangm@centuryextrusion.com,Stakeholder
-University, Equipment Manufacturer,Yoav D. Livney,Israel Institute of Technology,Director,Canada,Vancouver,livney@technion.ac.il,Stakeholder
+Industry, Equipment Manufacturer,Michelle Zhang,CPM Century Extrusion,Regional Sales Manager Asia,USA,Saginaw,zhangm@centuryextrusion.com,Stakeholder
+University,,Yoav D. Livney,Israel Institute of Technology,Director,Canada,Vancouver,livney@technion.ac.il,Stakeholder
 Consultant,,Stuart Walker,Extrusion Co,Director,New Zeland,Auckland,stuart@extrusionco.co.nz,Stakeholder
 University,,Siew-Young Quek,Uni Auckland,,New Zeland,Auckland,sy.quek@auckland.ac.nz <sy.quek@auckland.ac.nz>,Stakeholder
 University,,YunFei Xie,JiangNan University,Dean,China,Jiangnan ,Yunfei Xie <xieyunfei@jiangnan.edu.cn>,Stakeholder
 University,,Charles Brennan,RMIT,Chief Scientific Director,Australia,Melbourne,charles.brennan <charles.brennan@rmit.edu.au>,Stakeholder
-Industry,,Steve Strutt,AlgaePharm,Business Development Manager,Australia,Melbourne,stephen.strutt@woodsgroup.com.au,Stakeholder
-Industry, Ingredient Manufacturer,Gabriela Saavedraisusi,ThermoFisher,Application Specialist,Germany,Karlsruhe,gabriela.saavedraisusi@thermofisher.com,TBC
-Industry, Characterisation,Gaurav Dhumal,ICL Group,Senior Scientist New Product Development,USA,St Louis,Gaurav.Dhumal@icl-group.com,General Participant
-Industry, Ingredient Manufacturer,Ann Limley,Pivot Eat,Founder,Australia,Melbourne,ann.limley@gmail.com,General Participant
-Industry, Food Manufacturer,Constanza Hatchondo,General Mills,R&D Technologist,Australia,Sydney,constanzahatchondo@gmail.com,TBC
-Industry, Ingredient Manufacturer,Troy Hudgson,Kagome,General Manager - Functional Ingredients Category,Australia,Echuca Village,,Stakeholder
+Industry, Ingredient Manufacturer,Steve Strutt,AlgaePharm,Business Development Manager,Australia,Melbourne,stephen.strutt@woodsgroup.com.au,Stakeholder
+Industry, Characterisation,Gabriela Saavedraisusi,ThermoFisher,Application Specialist,Germany,Karlsruhe,gabriela.saavedraisusi@thermofisher.com,TBC
+Industry, Ingredient Manufacturer,Gaurav Dhumal,ICL Group,Senior Scientist New Product Development,USA,St Louis,Gaurav.Dhumal@icl-group.com,General Participant
+Industry, Food Manufacturer,Ann Limley,Pivot Eat,Founder,Australia,Melbourne,ann.limley@gmail.com,General Participant
+Industry, Ingredient Manufacturer,Constanza Hatchondo,General Mills,R&D Technologist,Australia,Sydney,constanzahatchondo@gmail.com,TBC
+Industry, Food Manufacturer,Troy Hudgson,Kagome,General Manager - Functional Ingredients Category,Australia,Echuca Village,,Stakeholder
 Industry, Food Manufacturer,Ranjit Peddapuli ,Kagome,,Australia,Echuca Village,,Stakeholder
-Industry, Food Manufacturer,Barbora Jabloncikova,DSM,Animal nutrition and health,Australia,Wodonga,Barbora.Jabloncikova@dsm.com,Stakeholder
+Industry, additives supplier,Barbora Jabloncikova,DSM,Animal nutrition and health,Australia,Wodonga,Barbora.Jabloncikova@dsm.com,Stakeholder
 Industry, additives supplier,Wayne Bradshaw,Jefo,Managing Director,Australia,Toowoomba,Linked in?,Stakeholder
 Industry, additives supplier,Leon Hall,BASF,"Senior Manager: Team Lead, Feed Enzymes and Feed Performance Ingredients",Australia,Melbourne,leon.hall@basf.com,Stakeholder
 Industry, additives supplier,Florence Motte,Symrise Pet Food Australia,Managing Director,Australia,Beresfield,https://www.linkedin.com/in/florencemotte/,Stakeholder
 Industry, additives supplier,Shona Crawford,Kemin Industries,Nutrisurance Asia Pacific CLS Laboratory Manager,Australia,Mount Duneed,,Stakeholder
-University, additives supplier,Jes Sammut,UNSW,Professor,Australia,Sydney,,Stakeholder
+University,,Jes Sammut,UNSW,Professor,Australia,Sydney,,Stakeholder
 University,,Leo Nankervis ,James Cook University,Associate Professor,Australia,Townsville,leo.nankervis@jcu.edu.au,Stakeholder
-Industry,,Malcolm Mottram,FeedWorks,Managing Partner,Australia,Lancefield,mal.mottram@feedworks.com.au,Stakeholder
+Industry, additives supplier,Malcolm Mottram,FeedWorks,Managing Partner,Australia,Lancefield,mal.mottram@feedworks.com.au,Stakeholder
 Industry, additives supplier,Yumin Bao,Redox,Animal nutritionist,Australia,Sydney,Yumin.Bao@redox.com,Stakeholder
-University, additives supplier,Kristy DiGiacomo,Uni of Melbourne,Senior Lecturer,Australia,Parkville,kristyd@unimelb.edu.au,Stakeholder
+University,,Kristy DiGiacomo,Uni of Melbourne,Senior Lecturer,Australia,Parkville,kristyd@unimelb.edu.au,Stakeholder
 R&D provider,,Richard Le Boucher,Temasek Singapore,Research Director,Singapore,Singapore,richard@tll.org.sg,Stakeholder
 University,,Weibiao ZHOU,National University of Singapore,Professor,Singapore,Singapore,weibiao@nus.edu.sg,Stakeholder
 University,,Erich Windhab,ETH Zurich,Professor,Switzerland,Zurich,,Stakeholder
-Industry,,Stuart Carrico,Wenger Manufacturing,Engineering and Support for Equipment Sales,USA,Missouri,,TBC
+Industry, Equipment Manufacturer,Stuart Carrico,Wenger Manufacturing,Engineering and Support for Equipment Sales,USA,Missouri,,TBC
 Industry, Equipment Manufacturer,Jesse Mitchell,Wenger Manufacturing,Technical Sales - Companion Animal & Aquafeed,USA,Kansas,,TBC
-Industry, Equipment Manufacturer,,Ben Furney ,,,,,Stakeholder
-Industry,,,IFF,,,,,Stakeholder
-Industry,,,"Premier Petfoods
-The Great Australian Petfood Co",,Australia,Caringbah NSW,https://kibble.com.au/,Stakeholder
-Industry,,,Uncle Tobys,,,,,
-,,,Roquette,,,,,
-,,,Ingredion,,,,,
-,,,Nestle,,,,,
-,,,Arnotts,,,,,
-,,,Newly Weds Foods,,,,,
-,,,Frito Lay,,,,,
+University,,Bo Zhang,Chinese Academy of Agricultural Sciences,Professor,China,Beijing,zjzb1978@126.com,Session presenter
+Consultant,,Anneline Padayachee,The Food and Nutrition Doctor,Founder,Australia,Melbourne,hello@drannelinepadayachee.com,Keynote speaker
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
