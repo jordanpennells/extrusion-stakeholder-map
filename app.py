@@ -50,31 +50,31 @@ df["Status"] = pd.Categorical(df["Status"],
                               categories=status_levels,
                               ordered=True)
 
-# drop rows without a country
+# Drop rows without a country
 df = df[df["Country"].notna() & (df["Country"]!="")].copy()
 
-# build Location key
+# Build 'Location' key
 df["Location"] = df.apply(
     lambda r: f"{r['City']}, {r['Country']}"
               if pd.notna(r["City"]) and r["City"]!="" else r["Country"],
     axis=1
 )
 
-# load or init geocode cache
+# Load or init geocode cache
 if os.path.exists(CACHE_PATH):
     with open(CACHE_PATH) as f:
         cache = json.load(f)
 else:
     cache = {}
 
-# inject cached coords
+# Inject cached coords
 df["Latitude"]  = df["Location"].map(lambda loc: cache.get(loc,(None,None))[0])
 df["Longitude"] = df["Location"].map(lambda loc: cache.get(loc,(None,None))[1])
 
-# drop any still-missing
+# Drop any still-missing
 df = df.dropna(subset=["Latitude","Longitude"])
 
-# unique filter values
+# Unique filter values
 category_levels    = sorted(df["Category"].dropna().unique())
 country_levels     = sorted(df["Country"].dropna().unique())
 affiliation_levels = sorted(df["Affiliation"].dropna().unique())
@@ -124,7 +124,7 @@ app.layout = dbc.Container(fluid=True, children=[
         ), width=12)
     ], className="my-4"),
 
-    # Top banner with responsive image & status-pills
+    # Top banner + status‐pills
     html.Div(
         html.Div([
             html.Img(
@@ -173,6 +173,7 @@ app.layout = dbc.Container(fluid=True, children=[
     ]),
 
     html.Div(id="tab-content", className="mt-4")
+
 ], style={"font-family":"Arial, sans-serif"})
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -182,8 +183,7 @@ app.layout = dbc.Container(fluid=True, children=[
               Input("tabs","value"))
 def render_tab(tab):
     if tab == "explore":
-        # ─── define the filter controls ─────────────────────────────────
-        filters = [
+        filter_controls = [
             dbc.Label("Search all", className="fw-bold"),
             dcc.Input(id="global_search",
                       placeholder="Type to search…",
@@ -223,11 +223,8 @@ def render_tab(tab):
                        className="mb-3 w-100"),
         ]
 
-        # ─── build the responsive row ───────────────────────────────────
         return dbc.Row([
-            # on mobile xs=12 (full width), on md+ use 3/12
-            dbc.Col(filters, xs=12, md=3, className="pe-4"),
-            # map + legend + table: xs=12, md=9
+            dbc.Col(filter_controls, xs=12, md=3, className="pe-4"),
             dbc.Col([
                 html.Div(id="legend", className="d-flex mb-2"),
                 dl.Map(
@@ -251,9 +248,7 @@ def render_tab(tab):
             ], xs=12, md=9)
         ], className="g-0")
 
-    # ──────────────────────────────────────────────────────────────────────────
-    # Submit-stakeholder tab (with new fields)
-    # ──────────────────────────────────────────────────────────────────────────
+    # Submit-stakeholder tab
     return dbc.Card(
         body=True, className="mx-auto", style={"maxWidth":"600px"},
         children=[
@@ -322,39 +317,48 @@ def reset_filters(_):
     return [], [], [], [], ""
 
 # ──────────────────────────────────────────────────────────────────────────────
-# 8. UPDATE MAP & LEGEND
+# 8. UPDATE MAP & LEGEND (with override logic)
 # ──────────────────────────────────────────────────────────────────────────────
 @app.callback(
-    Output("map","children"),
-    Output("map","center"),
+    Output("map",   "children"),
+    Output("map",   "center"),
     Output("legend","children"),
-    Input("status_select","value"),
-    Input("category_select","value"),
-    Input("country_select","value"),
-    Input("affiliation_select","value"),
-    Input("global_search","value")
+    Input("status_select",      "value"),
+    Input("category_select",    "value"),
+    Input("country_select",     "value"),
+    Input("affiliation_select", "value"),
+    Input("global_search",      "value")
 )
 def update_map(statuses, cats, countries, affils, search):
-    # 1) FILTER
+    # 1) Base filtering
     m = pd.Series(True, index=df.index)
-    if statuses:  m &= df["Status"].isin(statuses)
-    if cats:      m &= df["Category"].isin(cats)
-    if countries: m &= df["Country"].isin(countries)
-    if affils:    m &= df["Affiliation"].isin(affils)
+    if statuses:
+        m &= df["Status"].isin(statuses)
+    if cats:
+        m &= df["Category"].isin(cats)
+    if countries:
+        m &= df["Country"].isin(countries)
+    if affils:
+        m &= df["Affiliation"].isin(affils)
     if search:
-        s = search.strip()
-        txt = df[
-            ["Name","Affiliation","Category",
-             "Country","City","Position"]
-        ].apply(
-            lambda c: c.astype(str)
-                          .str.contains(s, case=False, na=False)
-        ).any(axis=1)
-        m &= txt
+        term = search.strip()
+        text_mask = (
+            df[["Name","Affiliation","Category","Country","City","Position"]]
+              .apply(lambda col: col.astype(str)
+                                 .str.contains(term, case=False, na=False),
+                     axis=1)
+              .any(axis=1)
+        )
+        m &= text_mask
+
     dff = df[m]
 
-    # 2) LEGEND
-    present = statuses if statuses else status_levels
+    # 2) Compute override colour if exactly one status pill is selected
+    override = None
+    if statuses and len(statuses) == 1:
+        override = status_to_colour[statuses[0]]
+
+    # 3) Build legend (always with the true colours)
     legend_items = [
         html.Div([
             html.Span(style={
@@ -364,25 +368,24 @@ def update_map(statuses, cats, countries, affils, search):
             }),
             html.Span(s)
         ], className="me-3")
-        for s in present
+        for s in (statuses or status_levels)
     ]
 
-    # 3) MAP TILE
+    # 4) Base tile
     tile = dl.TileLayer(
         url=LIGHT_BASEMAP,
         attribution="&copy; CartoDB, ESRI, Stamen"
     )
 
-    # 4) MARKERS
+    # 5) Markers — **use override** if set
     markers = []
     for (lat, lon), group in dff.groupby(["Latitude","Longitude"]):
-        cnt = len(group)
-        row0 = group.iloc[0]
-        col = status_to_colour[row0.Status]
-        radius = 8 + 2*min(cnt,10)
+        row0   = group.iloc[0]
+        colour = override if override is not None else status_to_colour[row0.Status]
+        radius = 8 + 2*min(len(group), 10)
 
-        if cnt == 1:
-            tip = row0.Name
+        if len(group) == 1:
+            tip   = row0.Name
             popup = dl.Popup(html.Div([
                 html.Strong(row0.Name), html.Br(),
                 row0.Position, html.Br(),
@@ -390,31 +393,32 @@ def update_map(statuses, cats, countries, affils, search):
                 f"{row0.City}, {row0.Country}"
             ]))
         else:
-            tip = f"{cnt} people"
+            tip   = f"{len(group)} people"
             popup = dl.Popup(html.Div([
-                html.H5(f"{cnt} people here", style={"marginBottom":".5rem"}),
+                html.H5(f"{len(group)} here", style={"marginBottom":".5rem"}),
                 html.Ul([
-                    html.Li(f"{r.Name} ({r.Status})")
-                    for _,r in group.iterrows()
+                    html.Li(f"{r.Name} ({r.Status})") for _,r in group.iterrows()
                 ], style={"paddingLeft":"1rem","margin":0})
             ], style={"maxHeight":"200px","overflowY":"auto"}))
 
         markers.append(
             dl.CircleMarker(
-                center=[lat,lon],
-                radius=radius,
-                color=col,
-                fillColor=col,
-                fillOpacity=0.8,
-                weight=1,
-                children=[dl.Tooltip(tip), popup]
+               center=[lat,lon],
+               radius=radius,
+               color=colour,
+               fillColor=colour,
+               fillOpacity=0.8,
+               weight=1,
+               children=[dl.Tooltip(tip), popup]
             )
         )
 
+    # 6) Return tile + markers, center, legend
     return [tile] + markers, [20,0], legend_items
 
+
 # ──────────────────────────────────────────────────────────────────────────────
-# 9. VISIBLE-STAKEHOLDERS TABLE
+# 9. VISIBLE‐STAKEHOLDERS TABLE
 # ──────────────────────────────────────────────────────────────────────────────
 @app.callback(
     Output("visible_table","data"),
@@ -428,20 +432,21 @@ def update_map(statuses, cats, countries, affils, search):
 def update_visible_table(bounds, statuses, cats, countries,
                          affils, search):
     m = pd.Series(True, index=df.index)
-    if statuses:  m &= df["Status"].isin(statuses)
-    if cats:      m &= df["Category"].isin(cats)
-    if countries: m &= df["Country"].isin(countries)
-    if affils:    m &= df["Affiliation"].isin(affils)
+    if statuses:
+        m &= df["Status"].isin(statuses)
+    if cats:
+        m &= df["Category"].isin(cats)
+    if countries:
+        m &= df["Country"].isin(countries)
+    if affils:
+        m &= df["Affiliation"].isin(affils)
     if search:
         s = search.strip()
-        txt = df[
-            ["Name","Affiliation","Category",
-             "Country","City","Position"]
-        ].apply(
-            lambda c: c.astype(str)
-                          .str.contains(s, case=False, na=False)
-        ).any(axis=1)
-        m &= txt
+        mask = df[["Name","Affiliation","Category","Country","City","Position"]] \
+                  .apply(lambda col: col.astype(str)
+                                         .str.contains(s, case=False, na=False)
+                       , axis=1).any(axis=1)
+        m &= mask
 
     vis = df[m]
     if bounds:
