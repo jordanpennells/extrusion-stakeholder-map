@@ -71,7 +71,7 @@ else:
 df["Latitude"]  = df["Location"].map(lambda loc: cache.get(loc,(None,None))[0])
 df["Longitude"] = df["Location"].map(lambda loc: cache.get(loc,(None,None))[1])
 
-# drop any still‐missing
+# drop any still-missing
 df = df.dropna(subset=["Latitude","Longitude"])
 
 # unique filter values
@@ -107,7 +107,6 @@ app = dash.Dash(
     external_stylesheets=[dbc.themes.FLATLY],
     suppress_callback_exceptions=True
 )
-
 server = app.server
 app.title = "Extrusion Stakeholder Map"
 
@@ -116,7 +115,6 @@ app.title = "Extrusion Stakeholder Map"
 # ──────────────────────────────────────────────────────────────────────────────
 app.layout = dbc.Container(fluid=True, children=[
 
-    
     # Page title
     dbc.Row([
         dbc.Col(html.H1(
@@ -125,13 +123,18 @@ app.layout = dbc.Container(fluid=True, children=[
             style={"fontSize":"2.5rem","fontWeight":"300"}
         ), width=12)
     ], className="my-4"),
-    
-    # Top banner with image & status‐pills
+
+    # Top banner with responsive image & status-pills
     html.Div(
         html.Div([
             html.Img(
                 src=app.get_asset_url("banner.png"),
-                style={"height":"270px","marginRight":"1rem"}  # 1.5× taller
+                style={
+                    "width":"100%",
+                    "maxHeight":"270px",
+                    "objectFit":"cover",
+                    "marginRight":"1rem"
+                }
             ),
             html.Div([
                 html.H5(
@@ -146,7 +149,7 @@ app.layout = dbc.Container(fluid=True, children=[
                 dbc.Checklist(
                   id="status_select",
                   options=[{"label":s,"value":s} for s in status_levels],
-                  value=[],            # empty = show all
+                  value=[],
                   inline=True,
                   inputClassName="btn-check",
                   labelClassName=(
@@ -155,14 +158,12 @@ app.layout = dbc.Container(fluid=True, children=[
                   )
                 )
             ], style={"display":"flex","flexDirection":"column"})
-        ], style={"display":"flex","alignItems":"center"}),
-        style={
-            "backgroundColor":"#0096D6",
-            "padding":"1rem",
-            "borderRadius":"0.5rem",
-            "boxShadow":"0 2px 4px rgba(0,0,0,0.1)",
-            "marginBottom":"1.5rem"
-        }
+        ], style={
+            "display":"flex","alignItems":"center",
+            "padding":"1rem","borderRadius":"0.5rem",
+            "boxShadow":"0 2px 4px rgba(0,0,0,0.1)"
+        }),
+        style={"backgroundColor":"#0096D6","marginBottom":"1.5rem"}
     ),
 
     # Tabs
@@ -172,7 +173,6 @@ app.layout = dbc.Container(fluid=True, children=[
     ]),
 
     html.Div(id="tab-content", className="mt-4")
-
 ], style={"font-family":"Arial, sans-serif"})
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -182,9 +182,8 @@ app.layout = dbc.Container(fluid=True, children=[
               Input("tabs","value"))
 def render_tab(tab):
     if tab == "explore":
-        # ─── sidebar filters ─────────────────────────────────────────────
-        filters = dbc.Col(width=3, className="pe-4", children=[
-
+        # ─── define the filter controls ─────────────────────────────────
+        filters = [
             dbc.Label("Search all", className="fw-bold"),
             dcc.Input(id="global_search",
                       placeholder="Type to search…",
@@ -217,60 +216,81 @@ def render_tab(tab):
                 value=[], multi=True,
                 placeholder="All affiliations"
             ),
-
             html.Br(),
+
             dbc.Button("Reset filters", id="reset-filters",
                        color="secondary", outline=True,
                        className="mb-3 w-100"),
+        ]
 
-        ])
-
-        # ─── map + legend + table ────────────────────────────────────────
-        map_area = dbc.Col(width=9, children=[
-            html.Div(id="legend", className="d-flex mb-2"),
-
-            dl.Map(
-                id="map", center=[20,0], zoom=1, children=[],
-                style={
-                    "width":"100%","height":"60vh",
-                    "borderRadius":"4px",
-                    "boxShadow":"2px 2px 5px rgba(0,0,0,0.1)"
-                }
-            ),
-
-            html.H5("Visible stakeholders", className="mt-3"),
-            dash_table.DataTable(
-                id="visible_table",
-                columns=[{"name":c,"id":c}
-                         for c in ["Name","Position","Affiliation",
-                                   "Country","Category","Status"]],
-                page_size=10,
-                style_table={"overflowX":"auto"},
-                style_header={"backgroundColor":"#f8f9fa","fontWeight":"bold"}
-            )
-        ])
-
-        return dbc.Row([filters, map_area], className="g-0")
+        # ─── build the responsive row ───────────────────────────────────
+        return dbc.Row([
+            # on mobile xs=12 (full width), on md+ use 3/12
+            dbc.Col(filters, xs=12, md=3, className="pe-4"),
+            # map + legend + table: xs=12, md=9
+            dbc.Col([
+                html.Div(id="legend", className="d-flex mb-2"),
+                dl.Map(
+                    id="map", center=[20,0], zoom=1, children=[],
+                    style={
+                        "width":"100%","height":"60vh",
+                        "borderRadius":"4px",
+                        "boxShadow":"2px 2px 5px rgba(0,0,0,0.1)"
+                    }
+                ),
+                html.H5("Visible stakeholders", className="mt-3"),
+                dash_table.DataTable(
+                    id="visible_table",
+                    columns=[{"name":c,"id":c}
+                             for c in ["Name","Position","Affiliation",
+                                       "Country","Category","Status"]],
+                    page_size=10,
+                    style_table={"overflowX":"auto"},
+                    style_header={"backgroundColor":"#f8f9fa","fontWeight":"bold"}
+                )
+            ], xs=12, md=9)
+        ], className="g-0")
 
     # ──────────────────────────────────────────────────────────────────────────
-    # Submit‐stakeholder tab
+    # Submit-stakeholder tab (with new fields)
     # ──────────────────────────────────────────────────────────────────────────
     return dbc.Card(
         body=True, className="mx-auto", style={"maxWidth":"600px"},
         children=[
             html.H3("Submit New Stakeholder", className="text-center mb-4"),
             dbc.Form([
-                dbc.Label("Name"), dbc.Input(id="sub-name", type="text"),
+                dbc.Label("Name"),
+                dbc.Input(id="sub-name", type="text"),
                 html.Br(),
+
+                dbc.Label("Affiliation"),
+                dbc.Input(id="sub-affiliation", type="text"),
+                html.Br(),
+
+                dbc.Label("Category"),
+                dcc.Dropdown(
+                    id="sub-category",
+                    options=[{"label":c,"value":c} for c in category_levels],
+                    placeholder="Select category"
+                ),
+                html.Br(),
+
                 dbc.Label("Department / Program"),
                 dbc.Input(id="sub-department", type="text"),
                 html.Br(),
-                dbc.Label("Position"), dbc.Input(id="sub-position", type="text"),
+
+                dbc.Label("Position"),
+                dbc.Input(id="sub-position", type="text"),
                 html.Br(),
-                dbc.Label("Country"), dbc.Input(id="sub-country", type="text"),
+
+                dbc.Label("Country"),
+                dbc.Input(id="sub-country", type="text"),
                 html.Br(),
-                dbc.Label("City"),    dbc.Input(id="sub-city",    type="text"),
+
+                dbc.Label("City"),
+                dbc.Input(id="sub-city", type="text"),
                 html.Br(),
+
                 dbc.Label("Status"),
                 dcc.Dropdown(
                     id="sub-status",
@@ -278,6 +298,7 @@ def render_tab(tab):
                     value="Stakeholder", clearable=False
                 ),
                 html.Br(),
+
                 dbc.Button("Prepare Email", id="submit-button",
                            color="primary", className="w-100"),
                 html.Div(id="submit-output", className="mt-3")
@@ -322,15 +343,17 @@ def update_map(statuses, cats, countries, affils, search):
     if affils:    m &= df["Affiliation"].isin(affils)
     if search:
         s = search.strip()
-        txt = df[["Name","Affiliation","Category",
-                  "Country","City","Position"]]\
-              .apply(lambda c: c.astype(str)
-                                .str.contains(s, case=False, na=False)
-                     ).any(axis=1)
+        txt = df[
+            ["Name","Affiliation","Category",
+             "Country","City","Position"]
+        ].apply(
+            lambda c: c.astype(str)
+                          .str.contains(s, case=False, na=False)
+        ).any(axis=1)
         m &= txt
     dff = df[m]
 
-    # 2) LEGEND: if user clicked pills, show those, else show all
+    # 2) LEGEND
     present = statuses if statuses else status_levels
     legend_items = [
         html.Div([
@@ -344,23 +367,22 @@ def update_map(statuses, cats, countries, affils, search):
         for s in present
     ]
 
-    # 3) Base tile (always light)
+    # 3) MAP TILE
     tile = dl.TileLayer(
         url=LIGHT_BASEMAP,
         attribution="&copy; CartoDB, ESRI, Stamen"
     )
 
-    # 4) One CircleMarker per unique (lat,lon)
+    # 4) MARKERS
     markers = []
     for (lat, lon), group in dff.groupby(["Latitude","Longitude"]):
-        cnt  = len(group)
+        cnt = len(group)
         row0 = group.iloc[0]
-        col  = status_to_colour[row0.Status]
+        col = status_to_colour[row0.Status]
         radius = 8 + 2*min(cnt,10)
 
-        # Tooltip & Popup
         if cnt == 1:
-            tip   = row0.Name
+            tip = row0.Name
             popup = dl.Popup(html.Div([
                 html.Strong(row0.Name), html.Br(),
                 row0.Position, html.Br(),
@@ -368,7 +390,7 @@ def update_map(statuses, cats, countries, affils, search):
                 f"{row0.City}, {row0.Country}"
             ]))
         else:
-            tip   = f"{cnt} people"
+            tip = f"{cnt} people"
             popup = dl.Popup(html.Div([
                 html.H5(f"{cnt} people here", style={"marginBottom":".5rem"}),
                 html.Ul([
@@ -379,21 +401,20 @@ def update_map(statuses, cats, countries, affils, search):
 
         markers.append(
             dl.CircleMarker(
-                id=f"marker-{lat:.5f}-{lon:.5f}",
                 center=[lat,lon],
                 radius=radius,
                 color=col,
                 fillColor=col,
                 fillOpacity=0.8,
                 weight=1,
-                children=[ dl.Tooltip(tip), popup ]
+                children=[dl.Tooltip(tip), popup]
             )
         )
 
     return [tile] + markers, [20,0], legend_items
 
 # ──────────────────────────────────────────────────────────────────────────────
-# 9. VISIBLE‐STAKEHOLDERS TABLE
+# 9. VISIBLE-STAKEHOLDERS TABLE
 # ──────────────────────────────────────────────────────────────────────────────
 @app.callback(
     Output("visible_table","data"),
@@ -406,7 +427,6 @@ def update_map(statuses, cats, countries, affils, search):
 )
 def update_visible_table(bounds, statuses, cats, countries,
                          affils, search):
-
     m = pd.Series(True, index=df.index)
     if statuses:  m &= df["Status"].isin(statuses)
     if cats:      m &= df["Category"].isin(cats)
@@ -414,11 +434,13 @@ def update_visible_table(bounds, statuses, cats, countries,
     if affils:    m &= df["Affiliation"].isin(affils)
     if search:
         s = search.strip()
-        txt = df[["Name","Affiliation","Category",
-                  "Country","City","Position"]]\
-              .apply(lambda c: c.astype(str)
-                                .str.contains(s, case=False, na=False)
-                     ).any(axis=1)
+        txt = df[
+            ["Name","Affiliation","Category",
+             "Country","City","Position"]
+        ].apply(
+            lambda c: c.astype(str)
+                          .str.contains(s, case=False, na=False)
+        ).any(axis=1)
         m &= txt
 
     vis = df[m]
@@ -439,6 +461,8 @@ def update_visible_table(bounds, statuses, cats, countries,
     Output("submit-output","children"),
     Input("submit-button","n_clicks"),
     State("sub-name","value"),
+    State("sub-affiliation","value"),
+    State("sub-category","value"),
     State("sub-department","value"),
     State("sub-position","value"),
     State("sub-country","value"),
@@ -446,24 +470,29 @@ def update_visible_table(bounds, statuses, cats, countries,
     State("sub-status","value"),
     prevent_initial_call=True
 )
-def prepare_email(n, name, dept, pos, country, city, status):
+def prepare_email(n, name, affiliation, category, dept,
+                  pos, country, city, status):
     fields = {
         "Name": name,
+        "Affiliation": affiliation,
+        "Category": category,
         "Department/Program": dept,
         "Position": pos,
         "Country": country,
         "City": city,
         "Status": status
     }
-    body = "\n".join(f"{k}: {v}" for k,v in fields.items())
+    body = "\n".join(f"{k}: {v}" for k, v in fields.items())
     mailto = (
         "mailto:jordan.pennells@csiro.au"
         "?subject=" + urllib.parse.quote("New Extrusion Symposium Stakeholder") +
         "&body="    + urllib.parse.quote(body)
     )
     return dbc.Alert(
-        html.A("✉ Click to send your submission",
-               href=mailto, target="_blank"),
+        html.A(
+            "Click to send your submission via email to Dr Jordan Pennells (Symposium Organiser)",
+            href=mailto, target="_blank"
+        ),
         color="success"
     )
 
