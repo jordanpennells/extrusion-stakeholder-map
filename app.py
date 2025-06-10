@@ -76,7 +76,9 @@ df = df.dropna(subset=["Latitude","Longitude"])
 
 # Unique filter values
 category_levels    = sorted(df["Category"].dropna().unique())
-subcategory_levels = sorted(df["Subcategory"].dropna().unique())
+subcategory_levels = sorted(
+    df["Subcategory"].dropna().str.strip().unique()
+)
 country_levels     = sorted(df["Country"].dropna().unique())
 affiliation_levels = sorted(df["Affiliation"].dropna().unique())
 
@@ -203,11 +205,12 @@ def render_tab(tab):
                 labelClassName="btn btn-outline-primary me-1 mb-1"
             ),
             dbc.Label("Subcategory", className="fw-bold mt-3"),
-            dcc.Dropdown(
+            dbc.Checklist(
                 id="subcategory_select",
                 options=[{"label": sc, "value": sc} for sc in subcategory_levels],
-                value=[], multi=True,
-                placeholder="All subcategories",
+                value=[], inline=True,
+                inputClassName="btn-check",
+                labelClassName="btn btn-outline-primary me-1 mb-1",
             ),
             html.Br(),
 
