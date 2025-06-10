@@ -481,7 +481,7 @@ def update_visible_table(bounds, statuses, cats, subcategories, countries,
 
 
     vis = df[m]
-    if bounds:
+    if bounds and len(bounds) == 2:
         sw, ne = bounds
         vis = vis[
             vis["Latitude"].between(sw[0], ne[0]) &
