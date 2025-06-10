@@ -17,6 +17,7 @@ CACHE_PATH = "geocoded_cache.json"
 
 df = pd.read_csv(DATA_PATH, encoding="latin-1")
 df["RawStatus"] = df["Status"].astype(str)
+df["Subcategory"] = df["Subcategory"].str.strip()
 
 def normalize_status(x):
     x = x.lower()
