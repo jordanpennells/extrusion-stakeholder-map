@@ -76,6 +76,9 @@ df = df.dropna(subset=["Latitude","Longitude"])
 
 # Unique filter values
 category_levels    = sorted(df["Category"].dropna().unique())
+subcategory_levels = sorted(
+    df["Subcategory"].dropna().str.strip().unique()
+)
 country_levels     = sorted(df["Country"].dropna().unique())
 affiliation_levels = sorted(df["Affiliation"].dropna().unique())
 
@@ -201,6 +204,14 @@ def render_tab(tab):
                 inputClassName="btn-check",
                 labelClassName="btn btn-outline-primary me-1 mb-1"
             ),
+            dbc.Label("Industry Subcategory", className="fw-bold mt-3"),
+            dbc.Checklist(
+                id="subcategory_select",
+                options=[{"label": sc, "value": sc} for sc in subcategory_levels],
+                value=[], inline=True,
+                inputClassName="btn-check",
+                labelClassName="btn btn-outline-primary me-1 mb-1",
+            ),
             html.Br(),
 
             dbc.Label("Country", className="fw-bold mt-3"),
@@ -245,7 +256,8 @@ def render_tab(tab):
                     id="visible_table",
                     columns=[{"name":c,"id":c}
                              for c in ["Name","Position","Affiliation",
-                                       "Country","Category","Status"]],
+                                       "Country","Category","Subcategory",
+                                       "Status"]],
                     page_size=10,
                     style_table={"overflowX":"auto"},
                     style_header={"backgroundColor":"#f8f9fa",
@@ -313,6 +325,7 @@ def render_tab(tab):
 @app.callback(
     Output("status_select","value"),
     Output("category_select","value"),
+    Output("subcategory_select","value"),
     Output("country_select","value"),
     Output("affiliation_select","value"),
     Output("global_search","value"),
@@ -320,7 +333,7 @@ def render_tab(tab):
     prevent_initial_call=True
 )
 def reset_filters(_):
-    return [], [], [], [], ""
+    return [], [], [], [], [], ""
 
 # ──────────────────────────────────────────────────────────────────────────────
 # 8. UPDATE MAP & LEGEND (with override logic)
@@ -331,17 +344,20 @@ def reset_filters(_):
     Output("legend", "children"),
     Input("status_select",      "value"),
     Input("category_select",    "value"),
+    Input("subcategory_select", "value"),
     Input("country_select",     "value"),
     Input("affiliation_select", "value"),
     Input("global_search",      "value")
 )
-def update_map(statuses, cats, countries, affils, search):
+def update_map(statuses, cats, subcategories, countries, affils, search):
     # 1) Base filtering
     m = pd.Series(True, index=df.index)
     if statuses:
         m &= df["Status"].isin(statuses)
     if cats:
         m &= df["Category"].isin(cats)
+    if subcategories:
+        m &= df["Subcategory"].isin(subcategories)
     if countries:
         m &= df["Country"].isin(countries)
     if affils:
@@ -434,17 +450,20 @@ def update_map(statuses, cats, countries, affils, search):
     Input("map","bounds"),
     Input("status_select","value"),
     Input("category_select","value"),
+    Input("subcategory_select","value"),
     Input("country_select","value"),
     Input("affiliation_select","value"),
     Input("global_search","value")
 )
-def update_visible_table(bounds, statuses, cats, countries,
+def update_visible_table(bounds, statuses, cats, subcategories, countries,
                          affils, search):
     m = pd.Series(True, index=df.index)
     if statuses:
         m &= df["Status"].isin(statuses)
     if cats:
         m &= df["Category"].isin(cats)
+    if subcategories:
+        m &= df["Subcategory"].isin(subcategories)
     if countries:
         m &= df["Country"].isin(countries)
     if affils:
@@ -470,7 +489,8 @@ def update_visible_table(bounds, statuses, cats, countries,
         ]
 
     return vis[["Name","Position","Affiliation",
-                "Country","Category","Status"]].to_dict("records")
+                "Country","Category","Subcategory",
+                "Status"]].to_dict("records")
 
 # ──────────────────────────────────────────────────────────────────────────────
 # 10. SUBMISSION EMAIL
