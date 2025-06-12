@@ -19,37 +19,67 @@ df = pd.read_csv(DATA_PATH, encoding="latin-1")
 df["RawStatus"] = df["Status"].astype(str)
 df["Subcategory"] = df["Subcategory"].str.strip()
 
-def normalize_status(x):
-    x = x.lower()
-    if   "keynote"    in x: return "Keynote speaker"
-    elif "general"    in x and "participant" in x:
-                             return "General Participant"
-    elif "declined"   in x: return "Declined"
-    elif "organising" in x: return "Organising Committee"
-    elif "session"    in x or "oral" in x:
-                             return "Session presentation"
-    elif "panel"      in x: return "Panel discussion"
-    elif "sponsor"    in x: return "Sponsor"
-    elif x.strip() in ["tbc","to be confirmed"]:
-                             return "Invited to attend Symposium"
-    else:                  return "Stakeholder"
+
+def parse_status_list(raw: str) -> list:
+    parts = [p.strip() for p in str(raw).split(";")]
+    statuses = []
+    for part in parts:
+        if not part:
+            continue
+        p = part.lower()
+        if "keynote" in p:
+            statuses.append("Keynote speaker")
+        elif "general" in p and "participant" in p:
+            statuses.append("General Participant")
+        elif "declined" in p:
+            statuses.append("Declined")
+        elif "organising" in p or "technical" in p:
+            statuses.append("Symposium committee")
+        elif "session" in p or "oral" in p:
+            statuses.append("Session presentation")
+        elif "panel" in p:
+            statuses.append("Panel discussion")
+        elif "sponsor" in p:
+            statuses.append("Sponsor")
+        elif p in ["tbc", "to be confirmed"]:
+            statuses.append("Invited to attend Symposium")
+        else:
+            statuses.append("Stakeholder")
+
+    # remove duplicates while preserving order
+    seen = set()
+    unique = []
+    for s in statuses if statuses else ["Stakeholder"]:
+        if s not in seen:
+            seen.add(s)
+            unique.append(s)
+    return unique
+
+
+df["StatusList"] = df["RawStatus"].apply(parse_status_list)
+
+
+def pick_category(lst):
+    return "Symposium committee" if "Symposium committee" in lst else lst[0]
 
 status_levels = [
     "Keynote speaker",
     "General Participant",
     "Declined",
-    "Organising Committee",
+    "Symposium committee",
     "Session presentation",
     "Panel discussion",
     "Sponsor",
     "Invited to attend Symposium",
-    "Stakeholder"
+    "Stakeholder",
 ]
 
-df["Status"] = df["RawStatus"].apply(normalize_status)
-df["Status"] = pd.Categorical(df["Status"],
-                              categories=status_levels,
-                              ordered=True)
+df["StatusDisplay"] = df["StatusList"].apply("; ".join)
+df["StatusCategory"] = df["StatusList"].apply(pick_category)
+df["StatusCategory"] = pd.Categorical(
+    df["StatusCategory"], categories=status_levels, ordered=True
+)
+df["Status"] = df["StatusDisplay"]
 
 # Drop rows without a country
 df = df[df["Country"].notna() & (df["Country"]!="")].copy()
@@ -90,7 +120,7 @@ status_to_colour = {
     "Keynote speaker":            "#2ecc71",
     "General Participant":        "#ffffb3",
     "Declined":                   "#e74c3c",
-    "Organising Committee":       "#3498db",
+    "Symposium committee":        "#3498db",
     "Session presentation":       "#f1c40f",
     "Panel discussion":           "#9b59b6",
     "Sponsor":                    "#d4ac0d",
@@ -354,7 +384,9 @@ def update_map(statuses, cats, subcategories, countries, affils, search):
     # 1) Base filtering
     m = pd.Series(True, index=df.index)
     if statuses:
-        m &= df["Status"].isin(statuses)
+        m &= df["StatusList"].apply(
+            lambda lst: any(s in lst for s in statuses)
+        )
     if cats:
         m &= df["Category"].isin(cats)
     if subcategories:
@@ -408,7 +440,7 @@ def update_map(statuses, cats, subcategories, countries, affils, search):
     markers = []
     for i, ((lat, lon), group) in enumerate(dff.groupby(["Latitude","Longitude"])):
         row0   = group.iloc[0]
-        colour = override if override is not None else status_to_colour[row0.Status]
+        colour = override if override is not None else status_to_colour[row0.StatusCategory]
         radius = 8 + 2*min(len(group), 10)
 
         if len(group) == 1:
@@ -460,7 +492,9 @@ def update_visible_table(bounds, statuses, cats, subcategories, countries,
                          affils, search):
     m = pd.Series(True, index=df.index)
     if statuses:
-        m &= df["Status"].isin(statuses)
+        m &= df["StatusList"].apply(
+            lambda lst: any(s in lst for s in statuses)
+        )
     if cats:
         m &= df["Category"].isin(cats)
     if subcategories:
