@@ -6,7 +6,7 @@ Research Organisation,,Daniel Glenn,CSIRO,Research Technician,Australia,Werribee
 Research Organisation,,Andrew Lawrence,CSIRO,Team Leader,Australia,Werribee,Andrew.Lawrence@csiro.au,Technical Committee
 Research Organisation,,Thu McCann,CSIRO,Senior Experimental Scientist,Australia,Werribee,thu.mccann@csiro.au,General Participant
 Research Organisation,,Kai Knoerzer,CSIRO,Principal Research Scientist/Engineer,Australia,Werribee,Kai.Knoerzer@csiro.au,General Participant
-Research Organisation,,Darren Gardiner,CSIRO,Principal Research Consultant,Australia,Werribee,Darren.Gardiner@csiro.au,General Participant
+Research Organisation,,Darren Gardiner,CSIRO,Principal Research Consultant,Australia,Werribee,Darren.Gardiner@csiro.au,Sakeholder
 Research Organisation,,Pablo Juliano,CSIRO,Group Leader,Australia,Werribee,Pablo.Juliano@csiro.au,Organising Committee
 Research Organisation,,Alice Tiong,CSIRO,Postdoctoral Researcher,Australia,Werribee,alice.tiong@csiro.au,General Participant
 Research Organisation,,Swan Htet,CSIRO,PhD Researcher,Australia,Werribee,swan.htet@csiro.au,Session presentation
@@ -44,6 +44,7 @@ University,,Samira Siyamak,UQ,Postdoctoral Researcher,Australia,St Lucia,s.siyam
 University,,Bhesh Bhandari,UQ,Professor,Australia,St Lucia,b.bhandari@uq.edu.au,TBC
 University,,Eiffel Leong,UQ,PhD Researcher,Australia,St Lucia,y.leong@uq.edu.au,Stakeholder
 University,,Sushil Dhital,Monash,Co-director- Monash Food Innovation Centre,Australia,Clayton,sushil.dhital@monash.edu,Session presentation
+University,,Domas Galih Patria,National Pingtung University of Science and Technology,,Taiwan,Taiwan,domasgalih.dg@gmail.com,Session presentation
 University,,Eddie Attenborough,Monash,PhD Researcher,Australia,Clayton,eddie.attenborough@monash.edu,Declined
 University,,Leonie van't Hag,Monash,Senior Lecturer,Australia,Clayton,leonie.vanthag@monash.edu,TBC
 University,,Zhongxiang Fang,University of Melbourne,Associate Professor,Australia,Melbourne,zhongxiang.fang@unimelb.edu.au,Stakeholder
@@ -84,11 +85,11 @@ Industry,,Minh Ha,v2food,Science & Technology Manager,Australia,Cremorne,minh.ha
 Industry,,Lisa Ronquest-Ross,v2food,Chief Science Officer,Australia,Brisbane,lisa.ronquest-ross@v2food.com,Declined
 Consultant,,Peter Hutchinson,ENH LTD,Director,New Zealand,Auckland,pete@enh.co.nz,Keynote speaker
 Industry, Equipment Manufacturer,Olivier Drean,Clextral,ASIA PACIFIC DIRECTOR,Indonesia,Jakarta,olivier.drean@clextral.com,Gold Sponsor
-Industry, Equipment Manufacturer,Louison Duclaux,Clextral,Asia Pacific Process Engineer,Singapore,Singapore,louison.duclaux@clextral.com,Gold Sponsor
+Industry, Equipment Manufacturer,Louison Duclaux,Clextral,Asia Pacific Process Engineer,Singapore,Singapore,louison.duclaux@clextral.com,Session presentation
 Industry, Equipment Manufacturer,Sylvie Brunel,Clextral,Process and Innovation Director,France,Saint Etienne,sylvie.brunel@clextral.com,Gold Sponsor
 Industry, Equipment Manufacturer,Emmanuel Lavocat,Clextral,Market Leader for Alternative Proteins,France,Lyon,emmanuel.lavocat@clextral.com,Gold Sponsor
 Industry, Equipment Manufacturer,Camille Challard,Clextral,Managing Director - Pacific,Vietnam,Ho Chi Minh City,cchallard@clextral.com,Gold Sponsor
-Industry, Equipment Manufacturer,Gaetan Charlery,Clextral,Pacific Sales Representative,Australia,Melbourne,gaetan.charlery@clextral.com,Gold Sponsor
+Industry, Equipment Manufacturer,Gaetan Charlery,Clextral,Pacific Sales Representative,Australia,Melbourne,gaetan.charlery@clextral.com,Session presentation
 Industry, Equipment Manufacturer,David Grant,Buhler,Sales,Australia,Melbourne,david.grant@buhlergroup.com,General Participant
 Industry, Equipment Manufacturer,David Fraser,Buhler,Managing Director Oceania Region,Australia,Forest Hill,david.fraser@buhlergroup.com,General Participant
 Industry, Equipment Manufacturer,Christian Carrillo,Buhler,Head of Process Technology SEA & Oceania,Singapore,Singapore,christian.carrillo@buhlergroup.com,Stakeholder
@@ -137,7 +138,7 @@ Industry, Food Manufacturer,William Longford,Vetafarm,Extrusion Operator,Austral
 Industry, Food Manufacturer,Jayaram Jayabalan,CopRice,Innovation and Development,Australia,Chadstone,Jayaram Jayabalan | Linkedin,TBC
 Industry, Food Manufacturer,Dale McLachlan,CopRice,Production Manager,Australia,Wangaratta,Dale McLachlan | Linkedin,TBC
 Industry, Food Manufacturer,John Menzies ,Sanitarium,R&D Manager,Australia,Newcastle,John Menzies | Linkedin,TBC
-,,Melvin Tan,Sanitarium,Principal Scientist,Australia,Melbourne,,TBC
+Industry, Food Manufacturer,Melvin Tan,Sanitarium,Principal Scientist,Australia,Melbourne,,TBC
 Industry, Food Manufacturer,Nadine Carlton,Kellanova,Senior Product Developer,Australia,Sydney,Nadine.carlton@kellanova.com,TBC
 Industry, Food Manufacturer,Aditi Agrawal,Kellanova,Product Developer,Australia,Sydney,aditi.agrawal@kellanova.com,TBC
 Industry, Food Manufacturer,Jenny Hannan,Kellanova,NutriGrain Lead,Australia,Sydney,Jennifer.hannan@kellanova.com,TBC
@@ -163,6 +164,7 @@ Industry, Feed Manufacturer,Tom Fox-Smith ,BioMar,Technical Director,Australia,L
 Industry, Feed Manufacturer,Gustavo Lehnebach,Ridley,Technical Manager,Australia,Redcliffe,gustavo.lehnebach@ridley.com.au,TBC
 Industry, Feed Manufacturer,Scott Whelan,Ridley,Extrusion Operator,Australia,Launceston,,Stakeholder
 Industry, Feed Manufacturer,Fabien Dalais,Ridley,Head of Quality,Australia,Melbourne,Fabien Dalais | LinkedIn,TBC
+Industry, Feed Manufacturer,Felipe Ballen,Ridley,,,,,
 Industry, Equipment Manufacturer,Holger Kuhlwein,Leiber,Key Account Manager,Germany,Bielefeld,,Stakeholder
 Research Organisation,,Lewis Martin ,A*STAR,Lab Manager,Singapore,Singapore,,Stakeholder
 Consultant,,Leigh Atkinson,Huon Aquaculture,Field Trials Manager,Australia,Tasmania,,Stakeholder
@@ -177,7 +179,7 @@ NGO,,Erin Rees Clayton,GFI,Scientific Research Advisor,USA,Sioux Falls,"erees@um
 erinc@gfi.org",Stakeholder
 Industry, Ingredient Manufacturer,Ben Lougher,ADM ,"Creation, Design & Development Director ANZ",Australia,Sydney,Ben.Lougher@adm.com,Declined
 Industry, Modelling & Simulation,Lucas Sardo,Sciences Computers Consultants,Scientific Director,France,Saint-Etienne,lsardo@scconsultants.com,Declined
-Industry, Modelling & Simulation,Laurent RATTE,Sciences Computers Consultants,Sales & Marketing Manager,France,Saint-Etienne,lratte@scconsultants.com,Declined
+Industry, Modelling & Simulation,Laurent RATTE,Sciences Computers Consultants,Sales & Marketing Manager,France,Saint-Etienne,lratte@scconsultants.com,Session presenter
 Industry, Modelling & Simulation,Ken Chew Tan,Dassault Systemes,"Director, Business Consulting",Singapore,Singapore,kenchew.tan@3ds.com,TBC
 Industry, Modelling & Simulation,Olivier Audelan,Dassault Systemes,CATIA Infrastructure & Buildings Industry Director,France,Toulouse ,,Stakeholder
 University,,Ana M. Velásquez Giraldo,Ohio State University,PhD Researcher,USA,Columbus ,velasquezgiraldo.1@buckeyemail.osu.edu,TBC
@@ -189,15 +191,15 @@ University,,Carolina Lagunes Delgado,Instituto Politécnico Nacional,PhD Research
 Research Organisation,,Francine Fayolle,ONIRIS,Professor,France,Nantes,francine.fayolle@oniris-nantes.fr,Stakeholder
 Research Organisation,,Eve-Anne Norwood,ONIRIS,Associate Professor,France,Nantes,eve-anne.norwood@oniris-nantes.fr,Stakeholder
 Research Organisation,,Vanessa Jury,ONIRIS,Professor,France,Nantes,vanessa.jury@oniris-nantes.fr,Stakeholder
-Industry, Characterisation,Debomitra Dey,Anton Paar,Application Scientist,USA,Virginia,debomitra.dey@anton-paar.com,TBC
-Industry, Characterisation,Dinesh Kumar,Anton Paar,Sales & Product Manager,Australia,Melbourne,dinesh.kumar@anton-paar.com,TBC
-Industry, Characterisation,Matthias Mayser,Anton Paar,Head of Application Laboratory - Food & Feed,Germany,Duisburg,matthias.mayser@anton-paar.com,TBC
-Industry, Characterisation,Paul Grant,Anton Paar,Territory Manager,New Zealand,Auckland,paul.grant@anton-paar.com,TBC
-Industry, Characterisation,Jutta Rieger,Anton Paar,Managing Director,Australia,Macquarie Park,jutta.rieger@anton-paar.com,TBC
-Industry, Characterisation,Arash Jamalabadi,Anton Paar,Technical Sales Specialist,Australia,Melbourne,arash.jamalabadi@anton-paar.com,Stakeholder
-Industry, Characterisation,Hooman Tahmasebi,Anton Paar,Technical Sales Specialist,Australia,Sydney,hooman.tahmasebi@anton-paar.com,Stakeholder
-Industry, Characterisation,Ashish Kumar,Anton Paar,National Product and Sales Manager,Australia,Melbourne,ashish.kumar@anton-paar.com,Stakeholder
-University,,Bruno Patricio Costa,Instituto de Tecnologia de Alimentos,Senior Researcher,Brazil,Campinas,bruno.costa@wsu.edu,TBC
+Industry, Characterisation,Debomitra Dey,Anton Paar,Application Scientist,USA,Virginia,debomitra.dey@anton-paar.com,Industry Booth Sponsor
+Industry, Characterisation,Dinesh Kumar,Anton Paar,Sales & Product Manager,Australia,Melbourne,dinesh.kumar@anton-paar.com,Industry Booth Sponsor
+Industry, Characterisation,Matthias Mayser,Anton Paar,Head of Application Laboratory - Food & Feed,Germany,Duisburg,matthias.mayser@anton-paar.com,Industry Booth Sponsor
+Industry, Characterisation,Paul Grant,Anton Paar,Territory Manager,New Zealand,Auckland,paul.grant@anton-paar.com,Industry Booth Sponsor
+Industry, Characterisation,Jutta Rieger,Anton Paar,Managing Director,Australia,Macquarie Park,jutta.rieger@anton-paar.com,Industry Booth Sponsor
+Industry, Characterisation,Arash Jamalabadi,Anton Paar,Technical Sales Specialist,Australia,Melbourne,arash.jamalabadi@anton-paar.com,Industry Booth Sponsor
+Industry, Characterisation,Hooman Tahmasebi,Anton Paar,Technical Sales Specialist,Australia,Sydney,hooman.tahmasebi@anton-paar.com,Industry Booth Sponsor
+Industry, Characterisation,Ashish Kumar,Anton Paar,National Product and Sales Manager,Australia,Melbourne,ashish.kumar@anton-paar.com,Industry Booth Sponsor
+University,,Bruno Patricio Costa,Instituto de Tecnologia de Alimentos,Senior Researcher,Brazil,Campinas,bruno.costa@wsu.edu,video confirmed
 University,,Cassandra Walker,Agriculture Victoria Research,Research Leader,Australia,Horsham,cassandra.walker@agriculture.vic.gov.au,TBC
 Industry, Modelling & Simulation,Sohan Birla,S2D Technologies,Director R&D,USA,Carol Stream,slbirla71@gmail.com,Stakeholder
 University,,Sun Ferreira,University of Arkansas,Food Scientist / Processing Engineer,USA,Fayetteville,sunfer@uark.edu,Declined
@@ -210,7 +212,7 @@ University,,Aniket Kamboj,Washington State University,PhD Researcher,USA,Pullman
 University,,Job Ubbink,University of Minnesota,Professor,USA,Minnesota,jubbink@umn.edu,TBC
 Research Organisation,,Michael Coeurvolan,ONIRIS,PhD Researcher,France,Nantes,michael.coeurvolan@oniris-nantes.fr,TBC
 Industry, Food Manufacturer,Steve Rogers,Rogue Foods,New Product Development Chef,Australia,Melbourne,steve.rogers@norfolkfoods.com.au,TBC
-University,,Andreas Hopf,University of Sydney,PhD Researcher,Australia,Sydney,andreas.hopf@sydney.edu.au,TBC
+University,,Andreas Hopf,University of Sydney,PhD Researcher,Australia,Sydney,andreas.hopf@sydney.edu.au,
 Industry, Equipment Manufacturer,Natasa Taseski,Wenger,Process Engineer,USA,Beijing,ntaseski@wenger.com,Declined
 Industry, Food Manufacturer,Alexandra Valdez,Conagra,Process Engineer,USA,Nebraska,Alexandra.Valdez@conagra.com,TBC
 University,,Billy Lo,RMIT,Postdoctoral Research Assistant,Australia,Melbourne,billy.lo@rmit.edu.au,Session presenter
@@ -352,17 +354,15 @@ Industry, Food Manufacturer,Francesco Benazzi,Growthwell Foods,Senior Vice Presi
 Industry, Food Manufacturer,Justin Chou,Growthwell Foods,CEO,Singapore,Singapore,(2) Justin Chou | LinkedIn,Stakeholder
 Industry, Food Manufacturer,Mohammed Salahudeen Abdul Rahaman,Growthwell Foods,Food Technologist (R&D),Singapore,Singapore,mohdsalahd@gmail.com,TBC
 Industry, Food Manufacturer,Eric Stirnemann,Planted,Co-founder,Switzerland,Zurich,e_sti@me.com,Stakeholder
-Consultant,,Maxime Demême,Biopolyfood,Founder,France,Lille,maxime.dememe@gmail.com,TBC
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
+Consultant,,Maxime Demême,Biopolyfood,Founder,France,Lille,maxime.dememe@gmail.com,Declined
+Industry,Equipment Manufacturer,Carl Dolgow,Collin Solutions,Product Manager Food & Feed,Germany,Reischach,carl.dolgow@collin-solutions.com,TBC
+Industry,Ingredient Manufacturer,Christine Schade,Sensient,,Australia,Melbourne,Christine.Schade@sensient.com,TBC
+Industry,Food Manufacturer,Julie Finnin,Good Food Partners,R&D Specialist Lead,Australia,Rowville,jfinnin@goodfoodpartners.com.au,TBC
+Industry,Food Manufacturer,Jay Mamtora,Good Food Partners,,Australia,Rowville,jmamtora@goodfoodpartners.com.au,TBC
+Industry,Food Manufacturer,Honi Cervi,Good Food Partners,,Australia,Rowville,hcervi@goodfoodpartners.com.au,TBC
+Industry,Food Manufacturer,Apoorva Bharadwaj,Good Food Partners,,Australia,Rowville,abharadwaj@goodfoodpartners.com.au,TBC
+Industry,Ingredient Manufacturer,Emma Stride,Kerry Ingredients,Business Development Director,Australia,Curl Curl,emma.stride@kerry.com,TBC
+Industry,Food Manufacturer,Arjan  Jongkees,Simplot,Senior Manager Technology and Applied Science,Australia,Melbourne,,Declined
+Industry,Retailer,Elly Craig,Coles,Product Developer,Australia,Melbourne,,TBC
+Industry,Retailer,Karen Ridge,Woolworths,,Australia,Sydney,,TBC
 ,, ,,,,,,
