@@ -150,13 +150,32 @@ app.title = "Extrusion Stakeholder Map"
 app.layout = dbc.Container(fluid=True, children=[
 
     # Page title
-    dbc.Row([dbc.Col(
-        html.H1(
-            "Food & Feed Extrusion – Global Stakeholder Network",
-            className="text-center",
-            style={"fontSize":"2.5rem","fontWeight":"300"}
-        ), width=12)
+    dbc.Row([
+        dbc.Col(
+            html.H1(
+                "Food & Feed Extrusion – Global Stakeholder Network",
+                className="text-center",
+                style={"fontSize": "2.5rem", "fontWeight": "300"}
+            ),
+            width=12
+        )
     ], className="my-4"),
+
+    dbc.Row(
+        dbc.Col(
+            dbc.Button(
+                "Symposium Home",
+                href="https://wp.csiro.au/extrusion-symposium/",
+                target="_blank",
+                external_link=True,
+                color="primary",
+                className="d-block mx-auto"
+            ),
+            width="auto"
+        ),
+        className="mb-4",
+        justify="center",
+    ),
 
     # Top banner + status‐pills
     html.Div(
